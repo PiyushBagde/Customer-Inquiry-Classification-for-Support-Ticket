@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Ticket Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">
+                        <h1 class="text-xl font-bold">Support Dashboard</h1>
+                    </div>
+                    <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                        <a href="/" class="text-gray-500 hover:text-gray-700 px-3 py-2 rounded-md">Submit Ticket</a>
+                        <a href="/dashboard" class="text-indigo-600 px-3 py-2 rounded-md">Dashboard</a>
+                        <a href="/tickets" class="text-indigo-600 px-3 py-2 rounded-md">Manage Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        <!-- Summary Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white overflow-hidden shadow rounded-lg">
+                <div class="p-5">
+                    <div class="flex items-center">
+                        <div class="flex-1">
+                            <div class="text-sm font-medium text-gray-500 truncate">Total Tickets</div>
+                            <div class="mt-1 text-3xl font-semibold text-gray-900" id="totalTickets">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white overflow-hidden shadow rounded-lg">
+                <div class="p-5">
+                    <div class="flex items-center">
+                        <div class="flex-1">
+                            <div class="text-sm font-medium text-gray-500 truncate">Open Tickets</div>
+                            <div class="mt-1 text-3xl font-semibold text-indigo-600" id="openTickets">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white overflow-hidden shadow rounded-lg">
+                <div class="p-5">
+                    <div class="flex items-center">
+                        <div class="flex-1">
+                            <div class="text-sm font-medium text-gray-500 truncate">Resolved Tickets</div>
+                            <div class="mt-1 text-3xl font-semibold text-green-600" id="resolvedTickets">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white overflow-hidden shadow rounded-lg">
+                <div class="p-5">
+                    <div class="flex items-center">
+                        <div class="flex-1">
+                            <div class="text-sm font-medium text-gray-500 truncate">Resolution Rate</div>
+                            <div class="mt-1 text-3xl font-semibold text-blue-600" id="resolutionRate">0%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-lg font-medium text-gray-900 mb-4">Ticket Type Distribution</h3>
+                <canvas id="ticketTypeChart"></canvas>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-lg font-medium text-gray-900 mb-4">Tickets by Product</h3>
+                <canvas id="productChart"></canvas>
+            </div>
+        </div>
+
+        <!-- New Top Keywords and Phrases Chart -->
+        <div class="bg-white rounded-lg shadow p-6">
+            <h3 class="text-lg font-medium text-gray-900 mb-4">Top Keywords and Phrases</h3>
+            <canvas id="topKeywordsChart"></canvas>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6">
+            <h3 class="text-lg font-medium text-gray-900 mb-4">Ticket Trends</h3>
+            <canvas id="trendChart"></canvas>
+        </div>
+    </main>
+
+    <script>
+        // Fetch dashboard data and initialize charts
+        async function fetchDashboardData() {
+            try {
+                const response = await fetch('/api/dashboard-data');
+                const data = await response.json();
+
+                if (data.success) {
+                    updateSummaryCards(data.summary);
+                    initializeCharts(data.charts);
+                    initializeTopKeywordsChart(data.topKeywords);
+                }
+            } catch (error) {
+                console.error('Error fetching dashboard data:', error);
+            }
+        }
+
+        function initializeTopKeywordsChart(topKeywords) {
+            new Chart(document.getElementById('topKeywordsChart'), {
+                type: 'bar',
+                data: {
+                    labels: topKeywords.labels,
+                    datasets: [{
+                        label: 'Frequency',
+                        data: topKeywords.data,
+                        backgroundColor: '#4F46E5'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Top Keywords and Phrases'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateSummaryCards(summary) {
+            document.getElementById('totalTickets').textContent = summary.total_tickets;
+            document.getElementById('openTickets').textContent = summary.open_tickets;
+            document.getElementById('resolvedTickets').textContent = summary.resolved_tickets;
+            document.getElementById('resolutionRate').textContent =
+                `${((summary.resolved_tickets / summary.total_tickets) * 100).toFixed(1)}%`;
+        }
+
+        function initializeCharts(chartData) {
+            // Ticket Type Distribution Chart
+            new Chart(document.getElementById('ticketTypeChart'), {
+                type: 'pie',
+                data: {
+                    labels: chartData.ticket_types.labels,
+                    datasets: [{
+                        data: chartData.ticket_types.data,
+                        backgroundColor: [
+                            '#4F46E5', '#7C3AED', '#EC4899', '#F59E0B', '#10B981'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+
+            // Products Chart
+            new Chart(document.getElementById('productChart'), {
+                type: 'bar',
+                data: {
+                    labels: chartData.products.labels,
+                    datasets: [{
+                        label: 'Tickets',
+                        data: chartData.products.data,
+                        backgroundColor: '#4F46E5'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            // Trend Chart
+            new Chart(document.getElementById('trendChart'), {
+                type: 'line',
+                data: {
+                    labels: chartData.trends.labels,
+                    datasets: [{
+                        label: 'Tickets',
+                        data: chartData.trends.data,
+                        borderColor: '#4F46E5',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        // Initialize dashboard
+        fetchDashboardData();
+
+        // Refresh dashboard data every 30 seconds
+        setInterval(fetchDashboardData, 30000);
+    </script>
+</body>
+</html>

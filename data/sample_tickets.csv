@@ -1,0 +1,101 @@
+Customer Name,Customer Email,Customer Gender,Product Purchased,Date of Purchase,Ticket Type,Ticket Subject,Ticket Description
+John Smith,john.smith@outlook.com,Female,Laptop Pro,2024-07-19,Feature Request,General inquiry,General description
+Sarah Davis,sarah.davis@outlook.com,Female,Desktop PC,2024-05-27,Technical Support,Cannot connect to WiFi,The screen is showing strange colors and flickering frequently.
+Maria Garcia,maria.garcia@yahoo.com,Female,Fitness Tracker,2024-10-05,Technical Support,Software keeps crashing,The screen is showing strange colors and flickering frequently.
+James Johnson,james.johnson@outlook.com,Male,Wireless Earbuds,2024-05-22,Return Request,General inquiry,General description
+Jennifer Martinez,jennifer.martinez@yahoo.com,Female,Fitness Tracker,2024-07-04,Feature Request,General inquiry,General description
+James Johnson,james.johnson@outlook.com,Female,Smart Speaker,2024-10-08,Feature Request,General inquiry,General description
+Emma Wilson,emma.wilson@hotmail.com,Female,Smart Watch,2024-11-02,Shipping Problem,General inquiry,General description
+John Smith,john.smith@outlook.com,Male,Wireless Earbuds,2024-06-16,Product Inquiry,Warranty information,Does this model include the new feature announced last month?
+Lisa Anderson,lisa.anderson@outlook.com,Female,Laptop Pro,2024-07-02,Feature Request,General inquiry,General description
+John Smith,john.smith@outlook.com,Female,Security Camera,2024-08-12,Technical Support,Software keeps crashing,My device won't start up after the recent update. I've tried restarting multiple times.
+Sarah Davis,sarah.davis@gmail.com,Female,Smart Speaker,2024-08-22,Product Inquiry,Product compatibility question,Does this model include the new feature announced last month?
+Maria Garcia,maria.garcia@gmail.com,Female,Desktop PC,2024-08-02,Product Defect,General inquiry,General description
+William Thomas,william.thomas@hotmail.com,Male,Laptop Pro,2024-06-07,Return Request,General inquiry,General description
+Lisa Anderson,lisa.anderson@gmail.com,Male,Fitness Tracker,2024-05-27,Account Access,General inquiry,General description
+Jennifer Martinez,jennifer.martinez@outlook.com,Female,Smartphone X,2024-11-08,Feature Request,General inquiry,General description
+William Thomas,william.thomas@outlook.com,Male,Desktop PC,2024-08-06,Account Access,General inquiry,General description
+Jennifer Martinez,jennifer.martinez@yahoo.com,Female,Smartphone X,2024-07-16,Feature Request,General inquiry,General description
+Emma Wilson,emma.wilson@gmail.com,Male,Desktop PC,2024-06-04,Return Request,General inquiry,General description
+William Thomas,william.thomas@hotmail.com,Female,Desktop PC,2024-06-18,Billing Issue,Subscription billing error,My subscription is showing the wrong billing amount this month.
+James Johnson,james.johnson@hotmail.com,Female,Gaming Console,2024-08-02,Product Inquiry,Technical specifications,I need detailed information about the warranty coverage.
+James Johnson,james.johnson@hotmail.com,Female,Smart Watch,2024-06-11,Feature Request,General inquiry,General description
+James Johnson,james.johnson@outlook.com,Female,Fitness Tracker,2024-08-30,Feature Request,General inquiry,General description
+Maria Garcia,maria.garcia@hotmail.com,Female,Smartphone X,2024-07-14,Product Inquiry,Warranty information,What are the main differences between model A and model B?
+Sarah Davis,sarah.davis@yahoo.com,Female,Gaming Console,2024-10-12,Product Defect,General inquiry,General description
+William Thomas,william.thomas@outlook.com,Female,Gaming Console,2024-11-10,Technical Support,Device not turning on,The application crashes every time I try to open it. This started happening yesterday.
+Lisa Anderson,lisa.anderson@yahoo.com,Female,Smartphone X,2024-09-20,Shipping Problem,General inquiry,General description
+Sarah Davis,sarah.davis@hotmail.com,Female,Desktop PC,2024-07-19,Billing Issue,Double charged for order,My subscription is showing the wrong billing amount this month.
+Robert Taylor,robert.taylor@outlook.com,Male,Smart Speaker,2024-10-15,Shipping Problem,General inquiry,General description
+William Thomas,william.thomas@outlook.com,Female,Smartphone X,2024-10-12,Return Request,General inquiry,General description
+James Johnson,james.johnson@hotmail.com,Male,Fitness Tracker,2024-08-07,Technical Support,Battery draining quickly,The screen is showing strange colors and flickering frequently.
+Maria Garcia,maria.garcia@outlook.com,Male,Gaming Console,2024-07-23,Product Inquiry,Product comparison,Does this model include the new feature announced last month?
+Robert Taylor,robert.taylor@yahoo.com,Male,Tablet Elite,2024-07-28,Shipping Problem,General inquiry,General description
+John Smith,john.smith@hotmail.com,Male,Security Camera,2024-06-25,Return Request,General inquiry,General description
+Maria Garcia,maria.garcia@yahoo.com,Female,Smartphone X,2024-06-11,Account Access,General inquiry,General description
+Emma Wilson,emma.wilson@outlook.com,Male,Wireless Earbuds,2024-06-11,Technical Support,Software keeps crashing,The screen is showing strange colors and flickering frequently.
+James Johnson,james.johnson@outlook.com,Male,Security Camera,2024-09-29,Technical Support,Cannot connect to WiFi,"Battery life has suddenly decreased, only lasting 2 hours on full charge."
+Maria Garcia,maria.garcia@gmail.com,Female,Security Camera,2024-11-05,Shipping Problem,General inquiry,General description
+Robert Taylor,robert.taylor@outlook.com,Male,Fitness Tracker,2024-08-27,Return Request,General inquiry,General description
+Emma Wilson,emma.wilson@gmail.com,Female,Smartphone X,2024-05-22,Product Defect,General inquiry,General description
+Maria Garcia,maria.garcia@yahoo.com,Female,Fitness Tracker,2024-09-25,Account Access,General inquiry,General description
+James Johnson,james.johnson@yahoo.com,Female,Fitness Tracker,2024-11-06,Feature Request,General inquiry,General description
+Emma Wilson,emma.wilson@hotmail.com,Female,Smart Speaker,2024-10-09,Billing Issue,Incorrect price charged,My subscription is showing the wrong billing amount this month.
+Jennifer Martinez,jennifer.martinez@gmail.com,Male,Laptop Pro,2024-06-04,Account Access,General inquiry,General description
+Jennifer Martinez,jennifer.martinez@gmail.com,Male,Laptop Pro,2024-09-13,Billing Issue,Incorrect price charged,I returned the item last week but haven't received my refund yet.
+James Johnson,james.johnson@outlook.com,Male,Smart Watch,2024-07-09,Product Inquiry,Product comparison,Does this model include the new feature announced last month?
+James Johnson,james.johnson@yahoo.com,Male,Gaming Console,2024-08-27,Feature Request,General inquiry,General description
+Jennifer Martinez,jennifer.martinez@outlook.com,Male,Smartphone X,2024-09-11,Account Access,General inquiry,General description
+John Smith,john.smith@outlook.com,Male,Smartphone X,2024-10-02,Product Inquiry,Feature availability,Could you provide the full technical specifications for this product?
+William Thomas,william.thomas@yahoo.com,Female,Desktop PC,2024-07-26,Shipping Problem,General inquiry,General description
+John Smith,john.smith@gmail.com,Female,Desktop PC,2024-07-03,Billing Issue,Double charged for order,I returned the item last week but haven't received my refund yet.
+James Johnson,james.johnson@outlook.com,Female,Tablet Elite,2024-06-07,Feature Request,General inquiry,General description
+William Thomas,william.thomas@hotmail.com,Male,Smart Watch,2024-10-06,Account Access,General inquiry,General description
+William Thomas,william.thomas@outlook.com,Male,Smart Speaker,2024-07-26,Return Request,General inquiry,General description
+Maria Garcia,maria.garcia@yahoo.com,Female,Laptop Pro,2024-06-18,Shipping Problem,General inquiry,General description
+Michael Brown,michael.brown@gmail.com,Male,Wireless Earbuds,2024-10-12,Product Inquiry,Feature availability,Will this product work with my existing setup? I have a [specific model].
+Maria Garcia,maria.garcia@outlook.com,Male,Security Camera,2024-07-18,Feature Request,General inquiry,General description
+Sarah Davis,sarah.davis@hotmail.com,Male,Gaming Console,2024-07-15,Technical Support,Software keeps crashing,The application crashes every time I try to open it. This started happening yesterday.
+John Smith,john.smith@outlook.com,Male,Smart Watch,2024-08-06,Feature Request,General inquiry,General description
+John Smith,john.smith@hotmail.com,Female,Laptop Pro,2024-10-06,Billing Issue,Subscription billing error,There's a charge on my account that I don't recognize.
+Emma Wilson,emma.wilson@gmail.com,Female,Fitness Tracker,2024-10-07,Account Access,General inquiry,General description
+William Thomas,william.thomas@outlook.com,Female,Wireless Earbuds,2024-06-28,Return Request,General inquiry,General description
+Sarah Davis,sarah.davis@hotmail.com,Male,Laptop Pro,2024-06-11,Product Defect,General inquiry,General description
+Lisa Anderson,lisa.anderson@gmail.com,Male,Fitness Tracker,2024-09-21,Product Defect,General inquiry,General description
+Robert Taylor,robert.taylor@yahoo.com,Female,Tablet Elite,2024-06-20,Return Request,General inquiry,General description
+Emma Wilson,emma.wilson@hotmail.com,Male,Smart Speaker,2024-07-18,Product Defect,General inquiry,General description
+Lisa Anderson,lisa.anderson@outlook.com,Female,Fitness Tracker,2024-07-22,Account Access,General inquiry,General description
+Emma Wilson,emma.wilson@outlook.com,Male,Smart Watch,2024-06-12,Product Defect,General inquiry,General description
+William Thomas,william.thomas@outlook.com,Male,Tablet Elite,2024-07-07,Shipping Problem,General inquiry,General description
+Jennifer Martinez,jennifer.martinez@yahoo.com,Female,Tablet Elite,2024-10-07,Technical Support,Device not turning on,The application crashes every time I try to open it. This started happening yesterday.
+Robert Taylor,robert.taylor@yahoo.com,Female,Smart Watch,2024-05-30,Return Request,General inquiry,General description
+Sarah Davis,sarah.davis@yahoo.com,Female,Laptop Pro,2024-06-04,Feature Request,General inquiry,General description
+Maria Garcia,maria.garcia@gmail.com,Female,Smartphone X,2024-09-10,Return Request,General inquiry,General description
+William Thomas,william.thomas@outlook.com,Female,Laptop Pro,2024-06-07,Shipping Problem,General inquiry,General description
+Maria Garcia,maria.garcia@yahoo.com,Female,Fitness Tracker,2024-09-11,Product Inquiry,Feature availability,What are the main differences between model A and model B?
+John Smith,john.smith@gmail.com,Male,Wireless Earbuds,2024-07-16,Feature Request,General inquiry,General description
+Sarah Davis,sarah.davis@hotmail.com,Female,Gaming Console,2024-11-01,Return Request,General inquiry,General description
+James Johnson,james.johnson@gmail.com,Female,Tablet Elite,2024-07-18,Feature Request,General inquiry,General description
+James Johnson,james.johnson@gmail.com,Male,Desktop PC,2024-07-12,Product Defect,General inquiry,General description
+Michael Brown,michael.brown@gmail.com,Male,Laptop Pro,2024-09-17,Feature Request,General inquiry,General description
+John Smith,john.smith@gmail.com,Female,Gaming Console,2024-06-04,Return Request,General inquiry,General description
+Robert Taylor,robert.taylor@yahoo.com,Male,Laptop Pro,2024-10-18,Billing Issue,Incorrect price charged,There's a charge on my account that I don't recognize.
+Robert Taylor,robert.taylor@outlook.com,Male,Smartphone X,2024-10-27,Shipping Problem,General inquiry,General description
+James Johnson,james.johnson@yahoo.com,Male,Smart Speaker,2024-11-05,Technical Support,Device not turning on,The screen is showing strange colors and flickering frequently.
+Lisa Anderson,lisa.anderson@outlook.com,Female,Security Camera,2024-11-06,Product Defect,General inquiry,General description
+Maria Garcia,maria.garcia@outlook.com,Female,Laptop Pro,2024-10-10,Account Access,General inquiry,General description
+Michael Brown,michael.brown@hotmail.com,Female,Fitness Tracker,2024-10-11,Return Request,General inquiry,General description
+Robert Taylor,robert.taylor@outlook.com,Male,Laptop Pro,2024-10-10,Return Request,General inquiry,General description
+Maria Garcia,maria.garcia@outlook.com,Male,Laptop Pro,2024-05-15,Account Access,General inquiry,General description
+Sarah Davis,sarah.davis@gmail.com,Female,Wireless Earbuds,2024-10-16,Shipping Problem,General inquiry,General description
+Sarah Davis,sarah.davis@hotmail.com,Male,Gaming Console,2024-10-13,Shipping Problem,General inquiry,General description
+William Thomas,william.thomas@hotmail.com,Female,Fitness Tracker,2024-07-16,Feature Request,General inquiry,General description
+John Smith,john.smith@hotmail.com,Male,Security Camera,2024-10-03,Feature Request,General inquiry,General description
+Maria Garcia,maria.garcia@gmail.com,Male,Fitness Tracker,2024-05-14,Billing Issue,Subscription billing error,My subscription is showing the wrong billing amount this month.
+Maria Garcia,maria.garcia@yahoo.com,Male,Smart Speaker,2024-09-27,Product Defect,General inquiry,General description
+John Smith,john.smith@yahoo.com,Male,Fitness Tracker,2024-08-31,Product Defect,General inquiry,General description
+John Smith,john.smith@yahoo.com,Male,Security Camera,2024-09-06,Technical Support,Device not turning on,"Battery life has suddenly decreased, only lasting 2 hours on full charge."
+Sarah Davis,sarah.davis@hotmail.com,Male,Tablet Elite,2024-07-12,Product Defect,General inquiry,General description
+William Thomas,william.thomas@outlook.com,Male,Fitness Tracker,2024-11-06,Technical Support,Cannot connect to WiFi,Unable to connect to any WiFi network. The device doesn't detect any networks.
+Lisa Anderson,lisa.anderson@gmail.com,Male,Tablet Elite,2024-06-10,Product Inquiry,Product compatibility question,What are the main differences between model A and model B?
+Sarah Davis,sarah.davis@gmail.com,Male,Gaming Console,2024-09-04,Product Inquiry,Product comparison,Will this product work with my existing setup? I have a [specific model].

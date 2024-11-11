@@ -1,0 +1,218 @@
+<!-- tickets.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manage Tickets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom gradients for cards */
+        .gradient-blue {
+            background: linear-gradient(135deg, #60a5fa, #3b82f6);
+        }
+        .gradient-purple {
+            background: linear-gradient(135deg, #c084fc, #8b5cf6);
+        }
+        .gradient-green {
+            background: linear-gradient(135deg, #4ade80, #22c55e);
+        }
+        .gradient-orange {
+            background: linear-gradient(135deg, #fb923c, #ea580c);
+        }
+        .gradient-pink {
+            background: linear-gradient(135deg, #f472b6, #db2777);
+        }
+
+        /* Hover effect for cards */
+        .card-zoom {
+            transition: all 0.3s ease;
+        }
+        .card-zoom:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+<nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">
+                        <h1 class="text-xl font-bold">Support Dashboard</h1>
+                    </div>
+                    <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                        <a href="/" class="text-gray-700 hover:text-gray-300 px-3 py-2 rounded-md">Submit Ticket</a>
+                        <a href="/dashboard" class="text-indigo-600 px-3 py-2 rounded-md">Dashboard</a>
+                        <a href="/tickets" class="text-indigo-600 px-3 py-2 rounded-md">Manage Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Category Cards Section -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <!-- All Tickets Card -->
+            <div onclick="filterTickets('all', 'all')"
+                 class="card-zoom rounded-xl shadow-lg overflow-hidden cursor-pointer">
+                <div class="gradient-blue p-6 text-white">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold">All Tickets</h3>
+                            <p class="mt-1 text-white/80">Total Cases</p>
+                        </div>
+                        <div class="text-4xl font-bold">{{ tickets|length }}</div>
+                    </div>
+                    <div class="mt-4 text-sm opacity-75">
+                        Click to view all tickets
+                    </div>
+                </div>
+            </div>
+
+            <!-- Generate cards for each ticket type with different gradients -->
+            {% set gradients = ['gradient-purple', 'gradient-green', 'gradient-orange', 'gradient-pink'] %}
+            {% for category, count in categories.items() %}
+            <div onclick="filterTickets('{{ category }}', 'all')"
+                 class="{{ gradients[loop.index0 % gradients|length] }} card-zoom rounded-xl shadow-lg overflow-hidden cursor-pointer">
+                <div class="{{ gradients[loop.index0 % gradients|length] }} p-6 text-white">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold">{{ category|title }}</h3>
+                            <p class="mt-1 text-white/80">Support Cases</p>
+                        </div>
+                        <div class="text-4xl font-bold">{{ count }}</div>
+                    </div>
+                    <div class="mt-4 text-sm opacity-75">
+                        Click to filter {{ category|title }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Status Filter Buttons with improved styling -->
+        <div class="mb-6 flex space-x-4">
+            <button onclick="filterTickets('{{ request.args.get('type', 'all') }}', 'all')"
+                    class="px-6 py-2 rounded-lg bg-white shadow-md hover:shadow-lg transition-all duration-200 text-gray-700 font-medium">
+                All Status
+            </button>
+            <button onclick="filterTickets('{{ request.args.get('type', 'all') }}', 'unresolved')"
+                    class="px-6 py-2 rounded-lg bg-white shadow-md hover:shadow-lg transition-all duration-200 text-yellow-600 font-medium">
+                Unresolved
+            </button>
+            <button onclick="filterTickets('{{ request.args.get('type', 'all') }}', 'resolved')"
+                    class="px-6 py-2 rounded-lg bg-white shadow-md hover:shadow-lg transition-all duration-200 text-green-600 font-medium">
+                Resolved
+            </button>
+        </div>
+
+        <!-- Tickets List with improved styling -->
+        <div id="tickets-container" class="bg-white shadow-lg rounded-xl divide-y divide-gray-200">
+            {% for ticket in tickets %}
+            <div class="ticket-item p-6 hover:bg-gray-50 transition-colors duration-150"
+                 data-type="{{ ticket.ticket_type }}"
+                 data-status="{{ ticket.status }}">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-lg font-medium text-blue-600">
+                        {{ ticket.ticket_subject }}
+                    </h3>
+                    <span class="px-3 py-1 rounded-full text-sm font-medium
+                        {% if ticket.status == 'resolved' %}
+                            bg-green-100 text-green-800
+                        {% else %}
+                            bg-yellow-100 text-yellow-800
+                        {% endif %}">
+                        {{ ticket.status }}
+                    </span>
+                </div>
+                <div class="mt-2">
+                    <p class="text-gray-600">{{ ticket.ticket_description }}</p>
+                </div>
+                <div class="mt-4 flex items-center justify-between text-sm text-gray-500">
+                    <div class="flex items-center space-x-4">
+                        <span class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                            {{ ticket.customer_name }}
+                        </span>
+                        <span class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            {{ ticket.customer_email }}
+                        </span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <span class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            {{ ticket.created_at.strftime('%Y-%m-%d %H:%M:%S') }}
+                        </span>
+                        <button onclick="updateTicketStatus({{ ticket.ticket_id }}, '{{ 'unresolved' if ticket.status == 'resolved' else 'resolved' }}')"
+                                class="inline-flex items-center px-3 py-1 rounded-md bg-indigo-50 text-indigo-700 hover:bg-indigo-100 transition-colors duration-150">
+                            {{ 'Mark Unresolved' if ticket.status == 'resolved' else 'Mark Resolved' }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        function filterTickets(category, status) {
+            const tickets = document.querySelectorAll('.ticket-item');
+            tickets.forEach(ticket => {
+                if (category === 'all' || ticket.dataset.type === category) {
+                    if (status === 'all' || ticket.dataset.status === status) {
+                        ticket.style.display = 'block';
+                    } else {
+                        ticket.style.display = 'none';
+                    }
+                } else {
+                    ticket.style.display = 'none';
+                }
+            });
+        }
+
+        function filterStatus(status) {
+            const tickets = document.querySelectorAll('.ticket-item');
+            tickets.forEach(ticket => {
+                if (status === 'all' || ticket.dataset.status === status) {
+                    ticket.style.display = 'block';
+                } else {
+                    ticket.style.display = 'none';
+                }
+            });
+        }
+
+        function updateTicketStatus(ticketId, newStatus) {
+            fetch(`/api/tickets/${ticketId}/status`, {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ status: newStatus })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.reload();
+                } else {
+                    alert('Error updating ticket status');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error updating ticket status');
+            });
+        }
+    </script>
+</body>
+</html>
