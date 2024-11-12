@@ -5,7 +5,6 @@ import os
 from datetime import datetime, timedelta
 from sqlalchemy import func
 from collections import defaultdict, Counter
-from sklearn.feature_extraction.text import CountVectorizer
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import string
