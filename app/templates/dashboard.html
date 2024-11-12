@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support Ticket Dashboard</title>
+    <title>Support Dashboard</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
 </head>
@@ -77,9 +77,9 @@
                 <canvas id="ticketTypeChart"></canvas>
             </div>
             <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-lg font-medium text-gray-900 mb-4">Tickets by Product</h3>
-                <canvas id="productChart"></canvas>
-            </div>
+            <h3 class="text-lg font-medium text-gray-900 mb-4">Tickets by Product</h3>
+            <canvas id="productChart"></canvas>
+        </div>
         </div>
 
         <!-- New Top Keywords and Phrases Chart -->
@@ -88,10 +88,28 @@
             <canvas id="topKeywordsChart"></canvas>
         </div>
 
-        <div class="bg-white rounded-lg shadow p-6">
-            <h3 class="text-lg font-medium text-gray-900 mb-4">Ticket Trends</h3>
-            <canvas id="trendChart"></canvas>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <!-- Inquiry Type Insights -->
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-lg font-medium text-gray-900 mb-4">Common Inquiry Types</h3>
+                <div class="space-y-4">
+                    <div id="inquiryTypesList" class="space-y-3">
+                        <!-- Will be populated dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Keyword Analysis -->
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-lg font-medium text-gray-900 mb-4">Top Keywords by Inquiry Type</h3>
+                <div id="keywordAnalysis" class="space-y-4">
+                    <!-- Will be populated dynamically -->
+                </div>
+            </div>
         </div>
+    </main>
+
+
     </main>
 
     <script>
@@ -101,13 +119,30 @@
                 const response = await fetch('/api/dashboard-data');
                 const data = await response.json();
 
+                const insightsResponse = await fetch('/api/dashboard-insights');
+                const insightsData = await insightsResponse.json();
+
                 if (data.success) {
                     updateSummaryCards(data.summary);
                     initializeCharts(data.charts);
                     initializeTopKeywordsChart(data.topKeywords);
+                    updateInsights(data.insights);
                 }
             } catch (error) {
                 console.error('Error fetching dashboard data:', error);
+            }
+
+             try {
+                const insightsResponse = await fetch('/api/dashboard-insights');
+                const insightsData = await insightsResponse.json();
+
+                if (insightsData.success) {
+                    updateInsights(insightsData.insights);
+                } else {
+                    console.error("Error fetching insights:", insightsData.error);
+                }
+            } catch (error) {
+                console.error('Error fetching insights data:', error);
             }
         }
 
@@ -137,6 +172,38 @@
                     }
                 }
             });
+        }
+
+        function updateInsights(insights) {
+            // Update Inquiry Types List
+            const inquiryTypesList = document.getElementById('inquiryTypesList');
+            inquiryTypesList.innerHTML = insights.commonTypes.map(type => `
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="flex justify-between items-center mb-2">
+                        <h4 class="font-medium text-gray-900">${type.name}</h4>
+                        <span class="text-sm text-indigo-600 font-medium">${type.percentage}%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-indigo-600 h-2 rounded-full" style="width: ${type.percentage}%"></div>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-2">${type.description}</p>
+                </div>
+            `).join('');
+
+            // Update Keyword Analysis
+            const keywordAnalysis = document.getElementById('keywordAnalysis');
+            keywordAnalysis.innerHTML = insights.keywordsByType.map(type => `
+                <div class="border-b border-gray-200 pb-4 last:border-b-0">
+                    <h4 class="font-medium text-gray-900 mb-2">${type.inquiryType}</h4>
+                    <div class="flex flex-wrap gap-2">
+                        ${type.keywords.map(keyword => `
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">
+                                ${keyword.word} (${keyword.count})
+                            </span>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
         }
 
         function updateSummaryCards(summary) {
@@ -171,47 +238,56 @@
             });
 
             // Products Chart
+            const productData = chartData.products.labels.map((label, index) => ({
+                label: label,
+                count: chartData.products.data[index]
+            }));
+
+            // Sort the array by count in descending order
+            productData.sort((a, b) => b.count - a.count);
+
+            // Create new arrays for sorted labels and data
+            const sortedLabels = productData.map(item => item.label);
+            const sortedData = productData.map(item => item.count);
+
             new Chart(document.getElementById('productChart'), {
                 type: 'bar',
                 data: {
-                    labels: chartData.products.labels,
+                    labels: sortedLabels,
                     datasets: [{
                         label: 'Tickets',
-                        data: chartData.products.data,
-                        backgroundColor: '#4F46E5'
+                        data: sortedData,
+                        backgroundColor: '#4F46E5',
+                        borderWidth: 1
                     }]
                 },
                 options: {
                     responsive: true,
+                    indexAxis: 'y',  // Make it a horizontal bar chart
+                    plugins: {
+                        legend: {
+                            display: false  // Hide legend since we only have one dataset
+                        }
+                    },
                     scales: {
+                        x: {
+                            beginAtZero: true,
+                            grid: {
+                                drawBorder: false
+                            },
+                            ticks: {
+                                precision: 0  // Show whole numbers only
+                            }
+                        },
                         y: {
-                            beginAtZero: true
+                            grid: {
+                                display: false  // Hide y-axis grid lines
+                            }
                         }
                     }
                 }
             });
 
-            // Trend Chart
-            new Chart(document.getElementById('trendChart'), {
-                type: 'line',
-                data: {
-                    labels: chartData.trends.labels,
-                    datasets: [{
-                        label: 'Tickets',
-                        data: chartData.trends.data,
-                        borderColor: '#4F46E5',
-                        tension: 0.1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    }
-                }
-            });
         }
 
         // Initialize dashboard

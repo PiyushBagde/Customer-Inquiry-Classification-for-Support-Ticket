@@ -5,6 +5,10 @@ import os
 from datetime import datetime, timedelta
 from sqlalchemy import func
 from collections import defaultdict, Counter
+from sklearn.feature_extraction.text import CountVectorizer
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import string
 
 main = Blueprint('main', __name__)
 classifier = TicketClassifier()
@@ -186,7 +190,15 @@ def dashboard_data():
 
         all_tickets = Ticket.query.all()
         all_text = ' '.join([ticket.ticket_subject + ' ' + ticket.ticket_description for ticket in all_tickets])
-        word_count = Counter(all_text.lower().split())
+
+        new_words = word_tokenize(all_text)
+        new_filtered_words = [word for word in new_words if word.lower() not in stopwords.words('english')]
+        new_clean_text = ' '.join(new_filtered_words)
+
+        for punctuation in string.punctuation:
+            new_clean_text = new_clean_text.replace(punctuation, '')
+
+        word_count = Counter(new_clean_text.lower().split())
         top_keywords = dict(word_count.most_common(10))
 
         return jsonify({
@@ -200,6 +212,79 @@ def dashboard_data():
             "topKeywords": {
                 'labels': list(top_keywords.keys()),
                 'data': list(top_keywords.values())
+            }
+        })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 400
+
+
+@main.route('/api/dashboard-insights')
+def dashboard_insights():
+    """Get detailed insights about inquiry types and keywords"""
+    try:
+        # Get all tickets
+        tickets = Ticket.query.all()
+
+        # Analyze inquiry types
+        type_counts = defaultdict(int)
+        type_keywords = defaultdict(list)
+        total_tickets = len(tickets)
+
+        for ticket in tickets:
+            type_counts[ticket.ticket_type] += 1
+            # Combine subject and description for keyword analysis
+            text = f"{ticket.ticket_subject} {ticket.ticket_description}"
+            # Tokenize and clean text
+            words = word_tokenize(text.lower())
+            # Remove stopwords and punctuation
+            words = [word for word in words
+                     if word not in stopwords.words('english')
+                     and word not in string.punctuation]
+            type_keywords[ticket.ticket_type].extend(words)
+
+        # Calculate percentages and prepare common types data
+        common_types = []
+        type_descriptions = {
+            'technical': 'Issues related to product functionality or technical problems',
+            'billing': 'Questions about payments, subscriptions, and refunds',
+            'feature': 'Requests for new features or product improvements',
+            'account': 'Account access and management issues',
+            'general': 'General product inquiries and information requests'
+        }
+
+        for ticket_type, count in type_counts.items():
+            percentage = (count / total_tickets * 100) if total_tickets > 0 else 0
+            common_types.append({
+                'name': ticket_type.capitalize(),
+                'percentage': round(percentage, 1),
+                'description': type_descriptions.get(ticket_type.lower(), 'Other inquiries')
+            })
+
+        # Sort by percentage descending
+        common_types.sort(key=lambda x: x['percentage'], reverse=True)
+
+        # Analyze keywords by type
+        keywords_by_type = []
+        for ticket_type, words in type_keywords.items():
+            # Count word frequencies
+            word_freq = Counter(words)
+            # Get top 5 keywords
+            top_keywords = [{'word': word, 'count': count}
+                            for word, count in word_freq.most_common(5)]
+
+            keywords_by_type.append({
+                'inquiryType': ticket_type.capitalize(),
+                'keywords': top_keywords
+            })
+
+        return jsonify({
+            'success': True,
+            'insights': {
+                'commonTypes': common_types,
+                'keywordsByType': keywords_by_type
             }
         })
     except Exception as e:

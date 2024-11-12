@@ -1,101 +1,501 @@
-Customer Name,Customer Email,Customer Gender,Product Purchased,Date of Purchase,Ticket Type,Ticket Subject,Ticket Description
-John Smith,john.smith@outlook.com,Female,Laptop Pro,2024-07-19,Feature Request,General inquiry,General description
-Sarah Davis,sarah.davis@outlook.com,Female,Desktop PC,2024-05-27,Technical Support,Cannot connect to WiFi,The screen is showing strange colors and flickering frequently.
-Maria Garcia,maria.garcia@yahoo.com,Female,Fitness Tracker,2024-10-05,Technical Support,Software keeps crashing,The screen is showing strange colors and flickering frequently.
-James Johnson,james.johnson@outlook.com,Male,Wireless Earbuds,2024-05-22,Return Request,General inquiry,General description
-Jennifer Martinez,jennifer.martinez@yahoo.com,Female,Fitness Tracker,2024-07-04,Feature Request,General inquiry,General description
-James Johnson,james.johnson@outlook.com,Female,Smart Speaker,2024-10-08,Feature Request,General inquiry,General description
-Emma Wilson,emma.wilson@hotmail.com,Female,Smart Watch,2024-11-02,Shipping Problem,General inquiry,General description
-John Smith,john.smith@outlook.com,Male,Wireless Earbuds,2024-06-16,Product Inquiry,Warranty information,Does this model include the new feature announced last month?
-Lisa Anderson,lisa.anderson@outlook.com,Female,Laptop Pro,2024-07-02,Feature Request,General inquiry,General description
-John Smith,john.smith@outlook.com,Female,Security Camera,2024-08-12,Technical Support,Software keeps crashing,My device won't start up after the recent update. I've tried restarting multiple times.
-Sarah Davis,sarah.davis@gmail.com,Female,Smart Speaker,2024-08-22,Product Inquiry,Product compatibility question,Does this model include the new feature announced last month?
-Maria Garcia,maria.garcia@gmail.com,Female,Desktop PC,2024-08-02,Product Defect,General inquiry,General description
-William Thomas,william.thomas@hotmail.com,Male,Laptop Pro,2024-06-07,Return Request,General inquiry,General description
-Lisa Anderson,lisa.anderson@gmail.com,Male,Fitness Tracker,2024-05-27,Account Access,General inquiry,General description
-Jennifer Martinez,jennifer.martinez@outlook.com,Female,Smartphone X,2024-11-08,Feature Request,General inquiry,General description
-William Thomas,william.thomas@outlook.com,Male,Desktop PC,2024-08-06,Account Access,General inquiry,General description
-Jennifer Martinez,jennifer.martinez@yahoo.com,Female,Smartphone X,2024-07-16,Feature Request,General inquiry,General description
-Emma Wilson,emma.wilson@gmail.com,Male,Desktop PC,2024-06-04,Return Request,General inquiry,General description
-William Thomas,william.thomas@hotmail.com,Female,Desktop PC,2024-06-18,Billing Issue,Subscription billing error,My subscription is showing the wrong billing amount this month.
-James Johnson,james.johnson@hotmail.com,Female,Gaming Console,2024-08-02,Product Inquiry,Technical specifications,I need detailed information about the warranty coverage.
-James Johnson,james.johnson@hotmail.com,Female,Smart Watch,2024-06-11,Feature Request,General inquiry,General description
-James Johnson,james.johnson@outlook.com,Female,Fitness Tracker,2024-08-30,Feature Request,General inquiry,General description
-Maria Garcia,maria.garcia@hotmail.com,Female,Smartphone X,2024-07-14,Product Inquiry,Warranty information,What are the main differences between model A and model B?
-Sarah Davis,sarah.davis@yahoo.com,Female,Gaming Console,2024-10-12,Product Defect,General inquiry,General description
-William Thomas,william.thomas@outlook.com,Female,Gaming Console,2024-11-10,Technical Support,Device not turning on,The application crashes every time I try to open it. This started happening yesterday.
-Lisa Anderson,lisa.anderson@yahoo.com,Female,Smartphone X,2024-09-20,Shipping Problem,General inquiry,General description
-Sarah Davis,sarah.davis@hotmail.com,Female,Desktop PC,2024-07-19,Billing Issue,Double charged for order,My subscription is showing the wrong billing amount this month.
-Robert Taylor,robert.taylor@outlook.com,Male,Smart Speaker,2024-10-15,Shipping Problem,General inquiry,General description
-William Thomas,william.thomas@outlook.com,Female,Smartphone X,2024-10-12,Return Request,General inquiry,General description
-James Johnson,james.johnson@hotmail.com,Male,Fitness Tracker,2024-08-07,Technical Support,Battery draining quickly,The screen is showing strange colors and flickering frequently.
-Maria Garcia,maria.garcia@outlook.com,Male,Gaming Console,2024-07-23,Product Inquiry,Product comparison,Does this model include the new feature announced last month?
-Robert Taylor,robert.taylor@yahoo.com,Male,Tablet Elite,2024-07-28,Shipping Problem,General inquiry,General description
-John Smith,john.smith@hotmail.com,Male,Security Camera,2024-06-25,Return Request,General inquiry,General description
-Maria Garcia,maria.garcia@yahoo.com,Female,Smartphone X,2024-06-11,Account Access,General inquiry,General description
-Emma Wilson,emma.wilson@outlook.com,Male,Wireless Earbuds,2024-06-11,Technical Support,Software keeps crashing,The screen is showing strange colors and flickering frequently.
-James Johnson,james.johnson@outlook.com,Male,Security Camera,2024-09-29,Technical Support,Cannot connect to WiFi,"Battery life has suddenly decreased, only lasting 2 hours on full charge."
-Maria Garcia,maria.garcia@gmail.com,Female,Security Camera,2024-11-05,Shipping Problem,General inquiry,General description
-Robert Taylor,robert.taylor@outlook.com,Male,Fitness Tracker,2024-08-27,Return Request,General inquiry,General description
-Emma Wilson,emma.wilson@gmail.com,Female,Smartphone X,2024-05-22,Product Defect,General inquiry,General description
-Maria Garcia,maria.garcia@yahoo.com,Female,Fitness Tracker,2024-09-25,Account Access,General inquiry,General description
-James Johnson,james.johnson@yahoo.com,Female,Fitness Tracker,2024-11-06,Feature Request,General inquiry,General description
-Emma Wilson,emma.wilson@hotmail.com,Female,Smart Speaker,2024-10-09,Billing Issue,Incorrect price charged,My subscription is showing the wrong billing amount this month.
-Jennifer Martinez,jennifer.martinez@gmail.com,Male,Laptop Pro,2024-06-04,Account Access,General inquiry,General description
-Jennifer Martinez,jennifer.martinez@gmail.com,Male,Laptop Pro,2024-09-13,Billing Issue,Incorrect price charged,I returned the item last week but haven't received my refund yet.
-James Johnson,james.johnson@outlook.com,Male,Smart Watch,2024-07-09,Product Inquiry,Product comparison,Does this model include the new feature announced last month?
-James Johnson,james.johnson@yahoo.com,Male,Gaming Console,2024-08-27,Feature Request,General inquiry,General description
-Jennifer Martinez,jennifer.martinez@outlook.com,Male,Smartphone X,2024-09-11,Account Access,General inquiry,General description
-John Smith,john.smith@outlook.com,Male,Smartphone X,2024-10-02,Product Inquiry,Feature availability,Could you provide the full technical specifications for this product?
-William Thomas,william.thomas@yahoo.com,Female,Desktop PC,2024-07-26,Shipping Problem,General inquiry,General description
-John Smith,john.smith@gmail.com,Female,Desktop PC,2024-07-03,Billing Issue,Double charged for order,I returned the item last week but haven't received my refund yet.
-James Johnson,james.johnson@outlook.com,Female,Tablet Elite,2024-06-07,Feature Request,General inquiry,General description
-William Thomas,william.thomas@hotmail.com,Male,Smart Watch,2024-10-06,Account Access,General inquiry,General description
-William Thomas,william.thomas@outlook.com,Male,Smart Speaker,2024-07-26,Return Request,General inquiry,General description
-Maria Garcia,maria.garcia@yahoo.com,Female,Laptop Pro,2024-06-18,Shipping Problem,General inquiry,General description
-Michael Brown,michael.brown@gmail.com,Male,Wireless Earbuds,2024-10-12,Product Inquiry,Feature availability,Will this product work with my existing setup? I have a [specific model].
-Maria Garcia,maria.garcia@outlook.com,Male,Security Camera,2024-07-18,Feature Request,General inquiry,General description
-Sarah Davis,sarah.davis@hotmail.com,Male,Gaming Console,2024-07-15,Technical Support,Software keeps crashing,The application crashes every time I try to open it. This started happening yesterday.
-John Smith,john.smith@outlook.com,Male,Smart Watch,2024-08-06,Feature Request,General inquiry,General description
-John Smith,john.smith@hotmail.com,Female,Laptop Pro,2024-10-06,Billing Issue,Subscription billing error,There's a charge on my account that I don't recognize.
-Emma Wilson,emma.wilson@gmail.com,Female,Fitness Tracker,2024-10-07,Account Access,General inquiry,General description
-William Thomas,william.thomas@outlook.com,Female,Wireless Earbuds,2024-06-28,Return Request,General inquiry,General description
-Sarah Davis,sarah.davis@hotmail.com,Male,Laptop Pro,2024-06-11,Product Defect,General inquiry,General description
-Lisa Anderson,lisa.anderson@gmail.com,Male,Fitness Tracker,2024-09-21,Product Defect,General inquiry,General description
-Robert Taylor,robert.taylor@yahoo.com,Female,Tablet Elite,2024-06-20,Return Request,General inquiry,General description
-Emma Wilson,emma.wilson@hotmail.com,Male,Smart Speaker,2024-07-18,Product Defect,General inquiry,General description
-Lisa Anderson,lisa.anderson@outlook.com,Female,Fitness Tracker,2024-07-22,Account Access,General inquiry,General description
-Emma Wilson,emma.wilson@outlook.com,Male,Smart Watch,2024-06-12,Product Defect,General inquiry,General description
-William Thomas,william.thomas@outlook.com,Male,Tablet Elite,2024-07-07,Shipping Problem,General inquiry,General description
-Jennifer Martinez,jennifer.martinez@yahoo.com,Female,Tablet Elite,2024-10-07,Technical Support,Device not turning on,The application crashes every time I try to open it. This started happening yesterday.
-Robert Taylor,robert.taylor@yahoo.com,Female,Smart Watch,2024-05-30,Return Request,General inquiry,General description
-Sarah Davis,sarah.davis@yahoo.com,Female,Laptop Pro,2024-06-04,Feature Request,General inquiry,General description
-Maria Garcia,maria.garcia@gmail.com,Female,Smartphone X,2024-09-10,Return Request,General inquiry,General description
-William Thomas,william.thomas@outlook.com,Female,Laptop Pro,2024-06-07,Shipping Problem,General inquiry,General description
-Maria Garcia,maria.garcia@yahoo.com,Female,Fitness Tracker,2024-09-11,Product Inquiry,Feature availability,What are the main differences between model A and model B?
-John Smith,john.smith@gmail.com,Male,Wireless Earbuds,2024-07-16,Feature Request,General inquiry,General description
-Sarah Davis,sarah.davis@hotmail.com,Female,Gaming Console,2024-11-01,Return Request,General inquiry,General description
-James Johnson,james.johnson@gmail.com,Female,Tablet Elite,2024-07-18,Feature Request,General inquiry,General description
-James Johnson,james.johnson@gmail.com,Male,Desktop PC,2024-07-12,Product Defect,General inquiry,General description
-Michael Brown,michael.brown@gmail.com,Male,Laptop Pro,2024-09-17,Feature Request,General inquiry,General description
-John Smith,john.smith@gmail.com,Female,Gaming Console,2024-06-04,Return Request,General inquiry,General description
-Robert Taylor,robert.taylor@yahoo.com,Male,Laptop Pro,2024-10-18,Billing Issue,Incorrect price charged,There's a charge on my account that I don't recognize.
-Robert Taylor,robert.taylor@outlook.com,Male,Smartphone X,2024-10-27,Shipping Problem,General inquiry,General description
-James Johnson,james.johnson@yahoo.com,Male,Smart Speaker,2024-11-05,Technical Support,Device not turning on,The screen is showing strange colors and flickering frequently.
-Lisa Anderson,lisa.anderson@outlook.com,Female,Security Camera,2024-11-06,Product Defect,General inquiry,General description
-Maria Garcia,maria.garcia@outlook.com,Female,Laptop Pro,2024-10-10,Account Access,General inquiry,General description
-Michael Brown,michael.brown@hotmail.com,Female,Fitness Tracker,2024-10-11,Return Request,General inquiry,General description
-Robert Taylor,robert.taylor@outlook.com,Male,Laptop Pro,2024-10-10,Return Request,General inquiry,General description
-Maria Garcia,maria.garcia@outlook.com,Male,Laptop Pro,2024-05-15,Account Access,General inquiry,General description
-Sarah Davis,sarah.davis@gmail.com,Female,Wireless Earbuds,2024-10-16,Shipping Problem,General inquiry,General description
-Sarah Davis,sarah.davis@hotmail.com,Male,Gaming Console,2024-10-13,Shipping Problem,General inquiry,General description
-William Thomas,william.thomas@hotmail.com,Female,Fitness Tracker,2024-07-16,Feature Request,General inquiry,General description
-John Smith,john.smith@hotmail.com,Male,Security Camera,2024-10-03,Feature Request,General inquiry,General description
-Maria Garcia,maria.garcia@gmail.com,Male,Fitness Tracker,2024-05-14,Billing Issue,Subscription billing error,My subscription is showing the wrong billing amount this month.
-Maria Garcia,maria.garcia@yahoo.com,Male,Smart Speaker,2024-09-27,Product Defect,General inquiry,General description
-John Smith,john.smith@yahoo.com,Male,Fitness Tracker,2024-08-31,Product Defect,General inquiry,General description
-John Smith,john.smith@yahoo.com,Male,Security Camera,2024-09-06,Technical Support,Device not turning on,"Battery life has suddenly decreased, only lasting 2 hours on full charge."
-Sarah Davis,sarah.davis@hotmail.com,Male,Tablet Elite,2024-07-12,Product Defect,General inquiry,General description
-William Thomas,william.thomas@outlook.com,Male,Fitness Tracker,2024-11-06,Technical Support,Cannot connect to WiFi,Unable to connect to any WiFi network. The device doesn't detect any networks.
-Lisa Anderson,lisa.anderson@gmail.com,Male,Tablet Elite,2024-06-10,Product Inquiry,Product compatibility question,What are the main differences between model A and model B?
-Sarah Davis,sarah.davis@gmail.com,Male,Gaming Console,2024-09-04,Product Inquiry,Product comparison,Will this product work with my existing setup? I have a [specific model].
+Ticket ID,Customer Name,Customer Email,Customer Gender,Product Purchased,Date of Purchase,Ticket Type,Ticket Subject,Ticket Description
+1,Kevin Murphy,kevin.murphy958@hotmail.com,Male,Smartphone,2024-03-30,Product Inquiry,Technical Specs,Does it support fast charging?
+2,Daniel Wickersham,daniel.wickersham280@hotmail.com,Male,Laptop,2024-12-02,Technical Support,Setup Help,Getting error code E123 during startup
+3,Armando Byington,armando.byington138@yahoo.com,Male,Portable Charger,2024-01-22,Account Access,Password Reset,Password reset email not received after 5 hours of request
+4,James Mccoy,james.mccoy56@gmail.com,Male,Smartphone,2024-07-07,Billing Issue,Refund Status,Refund of $418 not received after 28 days
+5,Ronald Garcia,ronald.garcia875@hotmail.com,Male,Electric Kettle,2024-01-28,Return Request,Size Issue,Product doesn't match description
+6,Joseph Perales,joseph.perales486@gmail.com,Male,Smart Speaker,2024-12-29,Technical Support,Device Not Connecting,Getting error code Y789 during startup
+7,Michael Morris,michael.morris121@hotmail.com,Male,Smart Thermostat,2024-06-22,Billing Issue,Double Charge,Monthly subscription of $13 charged incorrectly on debit card
+8,Albert Alston,albert.alston464@hotmail.com,Male,Smart Speaker,2024-11-10,Return Request,Defective Product,Received wrong model of Smart Speaker
+9,David Marton,david.marton588@outlook.com,Male,Electric Kettle,2024-06-28,Shipping Problem,Tracking Issues,Shipping label shows incorrect address
+10,Deborah Turner,deborah.turner94@yahoo.com,Female,Smartphone,2024-08-19,Technical Support,Setup Help,Getting freeze every 30 minutes
+11,Donald Ford,donald.ford563@outlook.com,Male,Electric Kettle,2024-04-04,Product Inquiry,Warranty Question,Does it support USB-C?
+12,Daryl Bush,daryl.bush789@yahoo.com,Male,Robot Vacuum,2024-08-17,Billing Issue,Double Charge,Unauthorized charge of $89 appeared on last week
+13,Jerry Flores,jerry.flores39@yahoo.com,Male,Smart Thermostat,2024-05-01,Account Access,Login Problems,Cannot login after 4 attempts with correct credentials
+14,Martha Vigil,martha.vigil261@gmail.com,Female,Digital Camera,2024-10-20,Account Access,Account Locked,Password reset email not received after 4 hours of request
+15,Michael Thomas,michael.thomas199@outlook.com,Male,Wireless Headphones,2024-07-01,Account Access,Two-Factor Issues,Two-factor authentication not sending SMS code
+16,Brandy Anderson,brandy.anderson21@gmail.com,Female,Desktop PC,2024-06-07,Account Access,Password Reset,Password reset email not received after 3 hours of request
+17,Patricia Dotson,patricia.dotson903@hotmail.com,Female,4K TV,2024-03-12,Product Inquiry,Technical Specs,Looking for weight specifications
+18,Wilma Phillips,wilma.phillips663@outlook.com,Female,Smart Speaker,2024-12-20,Feature Request,New Integration,Suggest adding dark mode to improve user experience
+19,Norma Schaffer,norma.schaffer673@outlook.com,Female,Wireless Headphones,2024-01-06,Product Defect,Screen Issue,Button stopped working after light use
+20,Nancy Hill,nancy.hill124@gmail.com,Female,Security Camera,2024-10-31,Billing Issue,Double Charge,Charged three times for order #22470
+21,Edith Parham,edith.parham524@gmail.com,Female,Fitness Tracker,2024-12-06,Product Inquiry,Compatibility Check,What is the return policy for this product?
+22,Jason Ross,jason.ross816@yahoo.com,Male,Smart Thermostat,2024-04-24,Technical Support,Software Issues,Getting freeze every 54 minutes
+23,Courtney Holt,courtney.holt20@outlook.com,Female,Smart Thermostat,2024-04-21,Return Request,Unsatisfactory,Found better alternative after 7 days of use
+24,Jessie Weston,jessie.weston792@outlook.com,Male,Smart Doorbell,2024-08-10,Feature Request,New Integration,Need user profiles feature for better usability
+25,Michael Rockwell,michael.rockwell456@yahoo.com,Male,Fitness Tracker,2024-07-22,Product Defect,Malfunction,Battery only lasts 1 hours instead of advertised 12 hours
+26,Margaret Lagunas,margaret.lagunas355@outlook.com,Female,Desktop PC,2024-12-14,Product Inquiry,Warranty Question,Does it support wireless charging?
+27,Matthew Thero,matthew.thero782@yahoo.com,Male,Digital Camera,2024-06-05,Billing Issue,Subscription Issue,Charged twice for order #64407
+28,Michael Hallenbeck,michael.hallenbeck681@outlook.com,Male,Smart Doorbell,2024-02-12,Billing Issue,Refund Status,Monthly subscription of $91 charged incorrectly on PayPal
+29,Emma Vickers,emma.vickers143@hotmail.com,Female,Security Camera,2024-12-21,Billing Issue,Refund Status,Monthly subscription of $85 charged incorrectly on credit card
+30,Garrett Reed,garrett.reed414@gmail.com,Male,Smart Doorbell,2024-07-29,Product Defect,Battery Problem,Display showing dead pixels after 17 days
+31,Heather Whitten,heather.whitten184@gmail.com,Female,Digital Camera,2024-03-02,Product Defect,Quality Control,Button stopped working after first use
+32,Kimberly Gallegos,kimberly.gallegos329@outlook.com,Female,Wireless Earbuds,2024-04-21,Product Defect,Hardware Damage,Battery only lasts 2 hours instead of advertised 12 hours
+33,Maggie Bass,maggie.bass697@yahoo.com,Female,Tablet,2024-07-24,Product Defect,Hardware Damage,Tablet arrived with missing parts in the bottom
+34,Rafael Todd,rafael.todd863@outlook.com,Male,Blender,2024-06-11,Shipping Problem,Delivery Delay,Order #887237 stuck in processing for 6 days
+35,William Parsons,william.parsons756@yahoo.com,Male,Blender,2024-12-13,Product Defect,Manufacturing Issue,Port stopped working after normal use
+36,Audrey Jaramillo,audrey.jaramillo358@yahoo.com,Female,Smart Doorbell,2024-07-10,Feature Request,New Integration,Need scheduling options feature for better usability
+37,Oren Armstrong,oren.armstrong531@hotmail.com,Male,External SSD,2024-12-07,Product Defect,Quality Control,Battery only lasts 3 hours instead of advertised 9 hours
+38,Susan Taylor,susan.taylor922@hotmail.com,Female,Wireless Earbuds,2024-02-13,Technical Support,Setup Help,Getting blue screen every 11 minutes
+39,Allen Alfonso,allen.alfonso731@yahoo.com,Male,Wireless Headphones,2024-11-01,Product Inquiry,Technical Specs,Does it support wireless charging?
+40,Edwin Bachrach,edwin.bachrach389@yahoo.com,Male,Wireless Headphones,2024-09-10,Return Request,Defective Product,Received wrong model of Wireless Headphones
+41,Joseph Mills,joseph.mills760@gmail.com,Male,Air Purifier,2024-05-01,Technical Support,Setup Help,Getting error code Y789 during startup
+42,Wade Brickey,wade.brickey197@outlook.com,Male,Mechanical Keyboard,2024-09-11,Product Defect,Hardware Damage,Mechanical Keyboard arrived with scratches in the side
+43,Micheal Bassett,micheal.bassett889@gmail.com,Male,Gaming Mouse,2024-04-14,Technical Support,Setup Help,Getting blue screen every 31 minutes
+44,Edwin Smith,edwin.smith565@outlook.com,Male,Wireless Headphones,2024-08-27,Return Request,Defective Product,Received wrong model of Wireless Headphones
+45,Tom Walp,tom.walp529@outlook.com,Male,Air Purifier,2024-11-23,Product Defect,Malfunction,Panel showing flickering after 23 days
+46,Patricia Cluff,patricia.cluff755@outlook.com,Female,Electric Kettle,2024-03-31,Billing Issue,Payment Failed,Charged three times for order #27485
+47,Tina Coutermarsh,tina.coutermarsh590@hotmail.com,Female,Smart Watch,2024-01-17,Account Access,Profile Update Failed,Two-factor authentication not sending SMS code
+48,Daniel Wiggins,daniel.wiggins988@gmail.com,Male,Fitness Tracker,2024-12-15,Account Access,Two-Factor Issues,Account locked due to security concern
+49,Adam Dubie,adam.dubie29@yahoo.com,Male,Tablet,2024-03-20,Feature Request,Mobile App Request,Requesting integration with Google Home for better functionality
+50,Robert Morton,robert.morton162@outlook.com,Male,Robot Vacuum,2024-05-03,Technical Support,Update Failed,Experience lag when using basic features
+51,Richard Smith,richard.smith765@hotmail.com,Male,Smart Thermostat,2024-03-29,Technical Support,Device Not Connecting,Device making strange buzzing noise when starting up
+52,Loretta Mitchell,loretta.mitchell873@gmail.com,Female,Smart Doorbell,2024-03-07,Shipping Problem,Damaged in Transit,Order #416475 stuck in processing for 11 days
+53,Shirley Hecker,shirley.hecker617@gmail.com,Female,Electric Kettle,2024-05-29,Shipping Problem,Delivery Delay,Package marked as delivered but not received
+54,Adam Smith,adam.smith695@gmail.com,Male,Digital Camera,2024-01-23,Technical Support,Performance Problems,Experience freezing when using multiple apps
+55,Mario Noyola,mario.noyola88@hotmail.com,Male,Wireless Earbuds,2024-10-26,Account Access,Profile Update Failed,Two-factor authentication not sending verification code
+56,Mark Meister,mark.meister842@hotmail.com,Male,Smart Thermostat,2024-09-20,Product Defect,Battery Problem,Smart Thermostat arrived with scratches in the top
+57,Sherry Henry,sherry.henry984@outlook.com,Female,Mechanical Keyboard,2024-01-27,Product Defect,Malfunction,Battery only lasts 2 hours instead of advertised 8 hours
+58,Chieko Romero,chieko.romero743@gmail.com,Female,Electric Kettle,2024-04-09,Feature Request,Performance Upgrade,Suggest adding quiet mode to improve user experience
+59,Daisy Smithson,daisy.smithson282@yahoo.com,Female,Gaming Console,2024-03-26,Account Access,Password Reset,Two-factor authentication not sending verification code
+60,Elvira Juariqui,elvira.juariqui901@hotmail.com,Female,Gaming Mouse,2024-08-31,Billing Issue,Subscription Issue,Charged three times for order #16245
+61,Donna Willoughby,donna.willoughby650@gmail.com,Female,Wireless Router,2024-06-17,Account Access,Password Reset,Password reset email not received after 5 hours of request
+62,Mary Coleman,mary.coleman191@outlook.com,Female,External SSD,2024-10-22,Return Request,Not as Described,Product doesn't work as expected
+63,Armando Mcgrath,armando.mcgrath678@hotmail.com,Male,Mechanical Keyboard,2024-05-06,Shipping Problem,Tracking Issues,Shipping label shows incorrect address
+64,Dina Boyd,dina.boyd780@yahoo.com,Female,Wireless Headphones,2024-04-19,Shipping Problem,Tracking Issues,Order #957623 stuck in processing for 15 days
+65,Tyler Whiteman,tyler.whiteman75@yahoo.com,Male,Tablet,2024-03-14,Return Request,Unsatisfactory,Product doesn't match description
+66,John Hilbert,john.hilbert12@outlook.com,Male,Blender,2024-12-18,Billing Issue,Double Charge,Unauthorized charge of $127 appeared on this morning
+67,Ben Prince,ben.prince634@outlook.com,Male,Smart Watch,2024-05-30,Shipping Problem,Lost Package,Order #193360 stuck in customs for 13 days
+68,Sterling Jones,sterling.jones580@outlook.com,Male,Smart Doorbell,2024-03-24,Shipping Problem,Delivery Delay,Order #449200 stuck in transit for 11 days
+69,Madeline Martinez,madeline.martinez889@hotmail.com,Female,Smart Speaker,2024-08-11,Feature Request,New Integration,Need scheduling options feature for better usability
+70,Frank Castorena,frank.castorena447@yahoo.com,Male,Mechanical Keyboard,2024-02-05,Shipping Problem,Damaged in Transit,Shipping label shows wrong zip code
+71,Rex Gomez,rex.gomez850@gmail.com,Male,Robot Vacuum,2024-01-03,Return Request,Wrong Item,Received wrong size of Robot Vacuum
+72,John Taylor,john.taylor253@hotmail.com,Male,Smart Watch,2024-03-03,Account Access,Security Concerns,Password reset email not received after 4 hours of request
+73,Courtney Caricofe,courtney.caricofe210@hotmail.com,Female,Blender,2024-02-14,Return Request,Unsatisfactory,Received wrong size of Blender
+74,Marion Morgan,marion.morgan290@yahoo.com,Female,4K TV,2024-09-07,Shipping Problem,Damaged in Transit,Tracking shows delivery to wrong state
+75,Jennifer Williams,jennifer.williams977@hotmail.com,Female,Electric Kettle,2024-05-23,Product Defect,Battery Problem,Battery only lasts 2 hours instead of advertised 10 hours
+76,Stacie Brown,stacie.brown923@yahoo.com,Female,4K TV,2024-06-28,Product Defect,Screen Issue,4K TV arrived with dents in the top
+77,Sandra Baker,sandra.baker723@hotmail.com,Female,Blender,2024-12-23,Shipping Problem,Wrong Address,Shipping label shows wrong name
+78,Michael Brinton,michael.brinton627@yahoo.com,Male,Digital Camera,2024-01-31,Account Access,Password Reset,Account locked due to security concern
+79,Molly Hogen,molly.hogen825@gmail.com,Female,Monitor,2024-03-03,Feature Request,UI Enhancement,Requesting integration with Apple HomeKit for better functionality
+80,Vena Earls,vena.earls654@gmail.com,Female,4K TV,2024-03-12,Shipping Problem,Tracking Issues,Shipping label shows incorrect address
+81,Lola Mcmanus,lola.mcmanus929@outlook.com,Female,4K TV,2024-01-25,Billing Issue,Double Charge,Price shown at checkout ($452) different from charged amount
+82,Olga Mccarthy,olga.mccarthy839@yahoo.com,Female,Robot Vacuum,2024-01-02,Account Access,Two-Factor Issues,Account locked due to suspicious activity
+83,Christina Blackman,christina.blackman622@gmail.com,Female,Monitor,2024-10-06,Return Request,Wrong Item,Package arrived tampered and missing manual
+84,Mary Pendergrass,mary.pendergrass181@yahoo.com,Female,Portable Charger,2024-12-15,Product Inquiry,Accessory Compatibility,What is the warranty period for this product?
+85,Evelyn Schulz,evelyn.schulz182@yahoo.com,Female,Smart Thermostat,2024-12-13,Account Access,Login Problems,Cannot login after 7 attempts with correct credentials
+86,Kiesha Connolly,kiesha.connolly772@outlook.com,Female,Wireless Earbuds,2024-01-17,Technical Support,Setup Help,Getting error code E123 during operation
+87,Veronica James,veronica.james907@gmail.com,Female,Electric Kettle,2024-08-14,Product Defect,Battery Problem,Electric Kettle arrived with scratches in the top
+88,Linda Shaver,linda.shaver54@hotmail.com,Female,Wireless Router,2024-10-31,Shipping Problem,Damaged in Transit,Shipping label shows incorrect address
+89,John Sinclair,john.sinclair235@gmail.com,Male,Air Purifier,2024-07-13,Shipping Problem,Delivery Delay,Order #201267 stuck in processing for 10 days
+90,Carmen Salazar,carmen.salazar207@yahoo.com,Female,Smart Speaker,2024-06-09,Account Access,Two-Factor Issues,Cannot login after 9 attempts with correct credentials
+91,Rhonda Pegoda,rhonda.pegoda291@yahoo.com,Female,Wireless Router,2024-01-24,Return Request,Wrong Item,Product doesn't work as expected
+92,Richard Smith,richard.smith21@outlook.com,Male,Tablet,2024-11-17,Return Request,Change Mind,Received wrong color of Tablet
+93,Lorraine Velez,lorraine.velez713@yahoo.com,Female,Wireless Earbuds,2024-10-13,Technical Support,Device Not Connecting,Keeps disconnecting from Bluetooth after recent update
+94,James Richard,james.richard279@gmail.com,Male,Monitor,2024-12-15,Product Defect,Quality Control,Monitor arrived with dents in the bottom
+95,Kimberly Drish,kimberly.drish552@gmail.com,Female,Smart Thermostat,2024-08-19,Product Inquiry,Warranty Question,What is the replacement policy for this product?
+96,Michael Williams,michael.williams928@outlook.com,Male,Portable Charger,2024-08-06,Account Access,Login Problems,Cannot login after 4 attempts with correct credentials
+97,Cordell Goldsmith,cordell.goldsmith37@hotmail.com,Male,Laptop,2024-06-12,Shipping Problem,Wrong Address,Package marked as delivered but nowhere to be found
+98,Kimberly Gamez,kimberly.gamez744@outlook.com,Female,4K TV,2024-11-17,Product Inquiry,Feature Information,Can this 4K TV work with iPhone?
+99,Bessie Damiano,bessie.damiano182@outlook.com,Female,Smart Watch,2024-04-20,Account Access,Profile Update Failed,Two-factor authentication not sending SMS code
+100,Sally Reeves,sally.reeves345@hotmail.com,Female,Wireless Earbuds,2024-09-28,Account Access,Two-Factor Issues,Two-factor authentication not sending SMS code
+101,Richard Radice,richard.radice824@outlook.com,Male,Monitor,2024-10-05,Return Request,Not as Described,Package arrived damaged and missing accessories
+102,Constance Limoli,constance.limoli943@yahoo.com,Female,Portable Charger,2024-01-06,Product Inquiry,Accessory Compatibility,What is the warranty period for this product?
+103,Blythe Joyce,blythe.joyce561@gmail.com,Female,4K TV,2024-08-17,Feature Request,Mobile App Request,Would like to see gesture recognition feature added
+104,Courtney Spencer,courtney.spencer654@gmail.com,Female,Wireless Earbuds,2024-01-31,Technical Support,Software Issues,Getting blue screen every 10 minutes
+105,David Payne,david.payne118@gmail.com,Male,Portable Charger,2024-03-20,Billing Issue,Double Charge,Charged twice for order #45016
+106,Demarcus Ng,demarcus.ng506@hotmail.com,Male,Gaming Mouse,2024-04-04,Account Access,Security Concerns,Account locked due to suspicious activity
+107,John Moore,john.moore974@gmail.com,Male,Portable Charger,2024-04-08,Feature Request,Additional Function,Requesting integration with Amazon Alexa for better functionality
+108,Daniel Waszkiewicz,daniel.waszkiewicz931@yahoo.com,Male,Monitor,2024-10-04,Product Defect,Manufacturing Issue,Port stopped working after light use
+109,Michelle Steiner,michelle.steiner647@yahoo.com,Female,Smartphone,2024-04-22,Feature Request,UI Enhancement,Suggest adding power saving mode to improve user experience
+110,Beth Mcdaniel,beth.mcdaniel797@outlook.com,Female,Wireless Router,2024-05-26,Feature Request,New Integration,Need customizable alerts feature for better usability
+111,Ginette Chesney,ginette.chesney25@yahoo.com,Female,Air Purifier,2024-05-24,Billing Issue,Double Charge,Price shown at checkout ($348) different from charged amount
+112,Robert Snodgrass,robert.snodgrass208@yahoo.com,Male,Digital Camera,2024-02-11,Billing Issue,Payment Failed,Refund of $67 not received after 22 days
+113,Connie Perkins,connie.perkins312@hotmail.com,Female,External SSD,2024-11-09,Shipping Problem,Lost Package,Package marked as delivered but nowhere to be found
+114,Teresa Pecanty,teresa.pecanty903@hotmail.com,Female,Smart Speaker,2024-06-05,Product Defect,Screen Issue,Display showing color distortion after 28 days
+115,William Wood,william.wood28@hotmail.com,Male,Wireless Headphones,2024-02-12,Account Access,Account Locked,Password reset email not received after 1 hours of request
+116,Jessica Perrine,jessica.perrine985@gmail.com,Female,Smart Thermostat,2024-08-15,Technical Support,Device Not Connecting,Unable to connect to WiFi after recent update
+117,Merle Gagne,merle.gagne246@gmail.com,Male,Gaming Mouse,2024-07-12,Account Access,Login Problems,Password reset email not received after 4 hours of request
+118,Howard Oppegard,howard.oppegard971@yahoo.com,Male,Wireless Router,2024-08-26,Return Request,Unsatisfactory,Product doesn't match description
+119,Rebecca Duenas,rebecca.duenas782@gmail.com,Female,Wireless Router,2024-12-23,Feature Request,UI Enhancement,Need scheduling options feature for better usability
+120,Darlene Morin,darlene.morin767@outlook.com,Female,Monitor,2024-12-23,Billing Issue,Price Discrepancy,Refund of $318 not received after 12 days
+121,Cody Franklin,cody.franklin76@yahoo.com,Male,Smart Doorbell,2024-11-20,Account Access,Security Concerns,Account locked due to multiple login attempts
+122,Ronald Countryman,ronald.countryman186@gmail.com,Male,Air Purifier,2024-06-18,Return Request,Unsatisfactory,Product doesn't fit my needs
+123,Delia Butler,delia.butler750@yahoo.com,Female,Wireless Headphones,2024-09-28,Return Request,Not as Described,Product doesn't work as expected
+124,Brandi Phelps,brandi.phelps665@hotmail.com,Female,Wireless Router,2024-09-30,Billing Issue,Subscription Issue,Charged twice for order #14670
+125,Diane Ezzo,diane.ezzo655@gmail.com,Female,Gaming Console,2024-04-12,Account Access,Login Problems,Cannot login after 9 attempts with correct credentials
+126,Patty Ellison,patty.ellison698@hotmail.com,Female,Portable Charger,2024-10-04,Account Access,Security Concerns,Account locked due to multiple login attempts
+127,Louise Stenberg,louise.stenberg677@hotmail.com,Female,Gaming Mouse,2024-07-25,Feature Request,Accessibility Feature,Would like to see gesture recognition feature added
+128,Billie Stamm,billie.stamm167@gmail.com,Male,Tablet,2024-07-18,Product Inquiry,Feature Information,Can this Tablet work with Windows PC?
+129,David Guerrero,david.guerrero803@yahoo.com,Male,External SSD,2024-09-13,Feature Request,Performance Upgrade,Suggest adding dark mode to improve user experience
+130,Richard Parker,richard.parker817@outlook.com,Male,Portable Charger,2024-11-27,Product Defect,Quality Control,Screen showing dead pixels after 30 days
+131,Stephanie Crawford,stephanie.crawford394@outlook.com,Female,External SSD,2024-09-22,Feature Request,UI Enhancement,Suggest adding power saving mode to improve user experience
+132,Ramona Summers,ramona.summers588@gmail.com,Female,Smart Thermostat,2024-07-30,Product Defect,Manufacturing Issue,Battery only lasts 4 hours instead of advertised 11 hours
+133,Roberta Banks,roberta.banks133@gmail.com,Female,External SSD,2024-12-25,Shipping Problem,Tracking Issues,Package marked as delivered but missing
+134,Roberto Gough,roberto.gough66@gmail.com,Male,External SSD,2024-02-14,Billing Issue,Price Discrepancy,Price shown at checkout ($331) different from charged amount
+135,Angela Birchall,angela.birchall10@outlook.com,Female,Wireless Headphones,2024-07-24,Return Request,Size Issue,Product doesn't work as expected
+136,Mary Houle,mary.houle858@gmail.com,Female,Desktop PC,2024-03-28,Return Request,Size Issue,Package arrived opened and missing manual
+137,Jane Scavotto,jane.scavotto866@hotmail.com,Female,Wireless Router,2024-06-11,Account Access,Security Concerns,Password reset email not received after 1 hours of request
+138,James Koczera,james.koczera657@outlook.com,Male,Portable Charger,2024-01-20,Billing Issue,Double Charge,Price shown at checkout ($633) different from charged amount
+139,Harry Mickelson,harry.mickelson486@hotmail.com,Male,Wireless Earbuds,2024-11-19,Shipping Problem,Tracking Issues,Tracking shows delivery to wrong address
+140,Shirley Nemeth,shirley.nemeth830@yahoo.com,Female,Wireless Headphones,2024-09-25,Product Inquiry,Accessory Compatibility,What is the return policy for this product?
+141,Gwendolyn Mayer,gwendolyn.mayer384@yahoo.com,Female,Desktop PC,2024-03-09,Shipping Problem,Customs Hold,Tracking shows delivery to wrong city
+142,Marla Monti,marla.monti881@yahoo.com,Female,4K TV,2024-06-26,Return Request,Not as Described,Product doesn't work as expected
+143,Ula Bishop,ula.bishop138@outlook.com,Female,Tablet,2024-03-01,Product Defect,Hardware Damage,Battery only lasts 4 hours instead of advertised 8 hours
+144,James Cantu,james.cantu441@outlook.com,Male,Fitness Tracker,2024-07-02,Technical Support,Performance Problems,Unable to connect to internet after recent update
+145,Kenneth Rosas,kenneth.rosas381@outlook.com,Male,Wireless Headphones,2024-02-26,Shipping Problem,Lost Package,Shipping label shows incorrect address
+146,Patrick Wickus,patrick.wickus732@outlook.com,Male,Smart Thermostat,2024-08-02,Product Defect,Hardware Damage,Switch stopped working after light use
+147,Arnold Pinegar,arnold.pinegar902@yahoo.com,Male,Wireless Earbuds,2024-05-24,Shipping Problem,Lost Package,Tracking shows delivery to wrong address
+148,Connie Strickland,connie.strickland638@gmail.com,Female,Wireless Earbuds,2024-07-12,Feature Request,Accessibility Feature,Suggest adding dark mode to improve user experience
+149,Kermit Levingston,kermit.levingston741@outlook.com,Male,Wireless Earbuds,2024-09-04,Return Request,Unsatisfactory,Found better alternative after 2 days of use
+150,Kam Gonzales,kam.gonzales648@yahoo.com,Female,Gaming Console,2024-06-08,Return Request,Unsatisfactory,Package arrived tampered and missing warranty card
+151,Elizabeth Jackson,elizabeth.jackson733@yahoo.com,Female,Smart Watch,2024-10-13,Product Inquiry,Technical Specs,Looking for weight specifications
+152,Valerie White,valerie.white370@outlook.com,Female,Monitor,2024-05-16,Account Access,Two-Factor Issues,Two-factor authentication not sending SMS code
+153,Jody Middleton,jody.middleton888@outlook.com,Male,Security Camera,2024-06-01,Technical Support,Setup Help,Security Camera keeps restarting randomly during night hours
+154,Amanda Robertson,amanda.robertson974@hotmail.com,Female,Wireless Headphones,2024-09-20,Return Request,Wrong Item,Found better alternative after 4 days of use
+155,Carmen Olson,carmen.olson595@outlook.com,Female,Gaming Mouse,2024-04-15,Shipping Problem,Lost Package,Shipping label shows wrong name
+156,Douglas Kyser,douglas.kyser948@gmail.com,Male,Blender,2024-04-16,Billing Issue,Refund Status,Monthly subscription of $75 charged incorrectly on credit card
+157,Edith Reyes,edith.reyes128@hotmail.com,Female,4K TV,2024-05-18,Shipping Problem,Delivery Delay,Package marked as delivered but missing
+158,David Brown,david.brown975@outlook.com,Male,Security Camera,2024-05-05,Product Defect,Malfunction,Port stopped working after light use
+159,Connie Brown,connie.brown933@outlook.com,Female,Monitor,2024-07-21,Feature Request,UI Enhancement,Would like to see voice control feature added
+160,Ethel Stein,ethel.stein136@outlook.com,Female,Mechanical Keyboard,2024-08-27,Product Defect,Battery Problem,Button stopped working after first use
+161,Rebecka Olson,rebecka.olson269@hotmail.com,Female,4K TV,2024-12-19,Shipping Problem,Tracking Issues,Tracking shows delivery to wrong city
+162,Mary Camacho,mary.camacho535@gmail.com,Female,Air Purifier,2024-04-27,Account Access,Security Concerns,Account locked due to security concern
+163,Stacey Pointer,stacey.pointer705@gmail.com,Female,Smart Speaker,2024-05-04,Product Defect,Malfunction,Panel showing dead pixels after 13 days
+164,Daniel Lopez,daniel.lopez104@hotmail.com,Male,External SSD,2024-03-30,Account Access,Password Reset,Account locked due to multiple login attempts
+165,Noreen Freeman,noreen.freeman665@outlook.com,Female,Smartphone,2024-11-19,Product Inquiry,Feature Information,Does it support fast charging?
+166,Carol Johnson,carol.johnson395@yahoo.com,Female,Tablet,2024-05-30,Technical Support,Error Messages,Device making strange whirring noise when shutting down
+167,Mary Campos,mary.campos832@gmail.com,Female,Smartphone,2024-03-05,Feature Request,Accessibility Feature,Would like to see voice control feature added
+168,Shona Stark,shona.stark839@outlook.com,Female,Gaming Mouse,2024-03-18,Product Inquiry,Accessory Compatibility,Can this Gaming Mouse work with iPhone?
+169,Winnie Lovell,winnie.lovell457@outlook.com,Female,Air Purifier,2024-04-23,Product Defect,Screen Issue,Battery only lasts 3 hours instead of advertised 12 hours
+170,Troy Olsen,troy.olsen642@outlook.com,Male,Digital Camera,2024-01-01,Technical Support,Performance Problems,Digital Camera keeps restarting randomly during evening hours
+171,Wayne Graham,wayne.graham227@outlook.com,Male,Smart Watch,2024-07-09,Shipping Problem,Tracking Issues,Shipping label shows wrong zip code
+172,William Wells,william.wells441@outlook.com,Male,Wireless Headphones,2024-11-19,Account Access,Password Reset,Account locked due to security concern
+173,Dorothy Levar,dorothy.levar614@hotmail.com,Female,Electric Kettle,2024-07-09,Account Access,Password Reset,Account locked due to suspicious activity
+174,Rosemary Meador,rosemary.meador255@gmail.com,Female,Mechanical Keyboard,2024-03-08,Billing Issue,Price Discrepancy,Unauthorized charge of $74 appeared on this morning
+175,Michelle Macko,michelle.macko886@outlook.com,Female,Robot Vacuum,2024-10-21,Technical Support,Software Issues,Unable to connect to WiFi after recent update
+176,Zachary Mckay,zachary.mckay55@outlook.com,Male,Electric Kettle,2024-07-06,Account Access,Account Locked,Two-factor authentication not sending SMS code
+177,Rosa Rojas,rosa.rojas921@hotmail.com,Female,External SSD,2024-03-28,Technical Support,Update Failed,Getting error code X456 during shutdown
+178,James Sreaves,james.sreaves808@outlook.com,Male,Wireless Earbuds,2024-03-10,Shipping Problem,Wrong Address,Order #102308 stuck in customs for 11 days
+179,Leslie Straw,leslie.straw962@yahoo.com,Female,Fitness Tracker,2024-04-21,Account Access,Security Concerns,Password reset email not received after 1 hours of request
+180,Hector Murray,hector.murray833@gmail.com,Male,Wireless Headphones,2024-12-29,Product Inquiry,Warranty Question,Looking for dimensions specifications
+181,Rick Anderson,rick.anderson690@yahoo.com,Male,Smart Thermostat,2024-12-10,Billing Issue,Refund Status,Unauthorized charge of $128 appeared on yesterday
+182,David Watson,david.watson819@hotmail.com,Male,Electric Kettle,2024-07-05,Account Access,Security Concerns,Two-factor authentication not sending email code
+183,Katrina Carlow,katrina.carlow679@yahoo.com,Female,Smartphone,2024-01-06,Account Access,Password Reset,Two-factor authentication not sending SMS code
+184,Sanford Galbreath,sanford.galbreath513@hotmail.com,Male,Smart Thermostat,2024-01-16,Billing Issue,Invoice Question,Price shown at checkout ($454) different from charged amount
+185,Steven Hahn,steven.hahn508@hotmail.com,Male,Desktop PC,2024-02-24,Account Access,Login Problems,Password reset email not received after 1 hours of request
+186,Linda Vigo,linda.vigo927@yahoo.com,Female,Air Purifier,2024-07-25,Feature Request,Accessibility Feature,Requesting integration with Apple HomeKit for better functionality
+187,Linda Shaw,linda.shaw765@outlook.com,Female,Mechanical Keyboard,2024-05-01,Product Inquiry,Feature Information,What is the warranty period for this product?
+188,Stacey Allen,stacey.allen951@gmail.com,Female,Wireless Router,2024-11-09,Account Access,Security Concerns,Password reset email not received after 4 hours of request
+189,Harold Stancil,harold.stancil332@gmail.com,Male,Fitness Tracker,2024-02-06,Shipping Problem,Customs Hold,Order #561128 stuck in transit for 8 days
+190,Sylvia Holderfield,sylvia.holderfield883@hotmail.com,Female,Air Purifier,2024-05-18,Billing Issue,Invoice Question,Monthly subscription of $19 charged incorrectly on debit card
+191,Franklin Garcia,franklin.garcia826@gmail.com,Male,4K TV,2024-02-13,Feature Request,Performance Upgrade,Requesting integration with Amazon Alexa for better functionality
+192,Sean Jeffery,sean.jeffery81@gmail.com,Male,Digital Camera,2024-03-11,Return Request,Change Mind,Received wrong model of Digital Camera
+193,Jennifer Shao,jennifer.shao318@yahoo.com,Female,Fitness Tracker,2024-11-17,Feature Request,UI Enhancement,Need user profiles feature for better usability
+194,Phyllis Crosby,phyllis.crosby946@gmail.com,Female,Smart Doorbell,2024-06-14,Product Inquiry,Accessory Compatibility,Does it support USB-C?
+195,Norma Fernandez,norma.fernandez446@outlook.com,Female,Fitness Tracker,2024-11-08,Shipping Problem,Customs Hold,Order #421562 stuck in processing for 13 days
+196,Penny Marino,penny.marino951@hotmail.com,Female,Security Camera,2024-07-22,Shipping Problem,Customs Hold,Order #665636 stuck in transit for 11 days
+197,Cortney Doucet,cortney.doucet57@hotmail.com,Female,Gaming Mouse,2024-11-30,Product Inquiry,Technical Specs,Does it support USB-C?
+198,Rebecca Lalonde,rebecca.lalonde205@outlook.com,Female,Smart Speaker,2024-06-23,Technical Support,Setup Help,Smart Speaker keeps restarting randomly during evening hours
+199,Stephanie Keane,stephanie.keane606@hotmail.com,Female,Mechanical Keyboard,2024-03-09,Account Access,Profile Update Failed,Account locked due to security concern
+200,Cynthia Stuble,cynthia.stuble931@gmail.com,Female,Gaming Console,2024-08-12,Shipping Problem,Wrong Address,Shipping label shows wrong name
+201,Birdie Anderson,birdie.anderson894@gmail.com,Female,4K TV,2024-06-20,Billing Issue,Subscription Issue,Price shown at checkout ($329) different from charged amount
+202,Dale Baremore,dale.baremore552@hotmail.com,Male,Fitness Tracker,2024-06-23,Billing Issue,Refund Status,Charged three times for order #86293
+203,Gerald Ives,gerald.ives451@hotmail.com,Male,4K TV,2024-04-25,Technical Support,Setup Help,4K TV keeps restarting randomly during morning hours
+204,Glen Sauceda,glen.sauceda334@yahoo.com,Male,Wireless Earbuds,2024-06-16,Product Inquiry,Compatibility Check,What is the return policy for this product?
+205,Sonya Sova,sonya.sova761@hotmail.com,Female,4K TV,2024-11-10,Account Access,Account Locked,Cannot login after 3 attempts with correct credentials
+206,Margaret Morales,margaret.morales747@gmail.com,Female,Tablet,2024-08-23,Account Access,Login Problems,Account locked due to suspicious activity
+207,Betty Woods,betty.woods795@hotmail.com,Female,Smart Doorbell,2024-04-28,Feature Request,Accessibility Feature,Suggest adding power saving mode to improve user experience
+208,Dianna Dyer,dianna.dyer723@yahoo.com,Female,4K TV,2024-08-24,Billing Issue,Double Charge,Charged twice for order #24481
+209,Isabel Vallejos,isabel.vallejos65@yahoo.com,Female,4K TV,2024-01-23,Account Access,Two-Factor Issues,Two-factor authentication not sending verification code
+210,James Mcgibbon,james.mcgibbon195@hotmail.com,Male,Wireless Router,2024-03-05,Account Access,Two-Factor Issues,Cannot login after 3 attempts with correct credentials
+211,Louisa Meil,louisa.meil261@gmail.com,Female,Smart Doorbell,2024-04-19,Feature Request,Performance Upgrade,Need user profiles feature for better usability
+212,Rhonda Hairston,rhonda.hairston878@gmail.com,Female,Smartphone,2024-12-03,Return Request,Wrong Item,Product doesn't match description
+213,Billy Moore,billy.moore231@gmail.com,Male,Desktop PC,2024-04-26,Return Request,Change Mind,Received wrong model of Desktop PC
+214,Derrick Tucker,derrick.tucker953@hotmail.com,Male,Desktop PC,2024-10-18,Account Access,Account Locked,Cannot login after 8 attempts with correct credentials
+215,Alicia Shields,alicia.shields617@gmail.com,Female,Smart Doorbell,2024-09-30,Billing Issue,Payment Failed,Refund of $436 not received after 28 days
+216,Madelyn Mckinney,madelyn.mckinney975@gmail.com,Female,Smart Thermostat,2024-01-23,Technical Support,Update Failed,Experience delay when using multiple apps
+217,William Bednar,william.bednar460@yahoo.com,Male,Robot Vacuum,2024-09-18,Product Inquiry,Usage Guidelines,Does it support USB-C?
+218,John Holman,john.holman620@gmail.com,Male,Laptop,2024-06-06,Account Access,Security Concerns,Cannot login after 5 attempts with correct credentials
+219,Robert Jones,robert.jones782@yahoo.com,Male,Smart Doorbell,2024-10-08,Billing Issue,Refund Status,Charged three times for order #53861
+220,Gerald Clary,gerald.clary45@gmail.com,Female,Gaming Console,2024-08-28,Technical Support,Device Not Connecting,Unable to connect to Bluetooth after recent update
+221,Aiko Cook,aiko.cook561@hotmail.com,Female,Wireless Headphones,2024-04-07,Account Access,Account Locked,Two-factor authentication not sending email code
+222,Philip Armstrong,philip.armstrong498@outlook.com,Male,Monitor,2024-08-18,Return Request,Unsatisfactory,Product doesn't fit my needs
+223,Meredith Orser,meredith.orser621@gmail.com,Female,Monitor,2024-04-02,Shipping Problem,Delivery Delay,Package marked as delivered but missing
+224,Catalina Mccall,catalina.mccall821@gmail.com,Female,Air Purifier,2024-04-03,Feature Request,Performance Upgrade,Need user profiles feature for better usability
+225,Julius Dunn,julius.dunn422@hotmail.com,Male,Security Camera,2024-01-14,Product Defect,Battery Problem,Panel showing color distortion after 2 days
+226,Abigail Byrd,abigail.byrd113@hotmail.com,Female,Air Purifier,2024-06-21,Billing Issue,Payment Failed,Refund of $97 not received after 15 days
+227,Brian Michalski,brian.michalski199@hotmail.com,Male,Smart Thermostat,2024-11-01,Shipping Problem,Damaged in Transit,Order #274229 stuck in transit for 5 days
+228,Luis Gallego,luis.gallego31@hotmail.com,Male,Laptop,2024-05-02,Return Request,Not as Described,Received wrong size of Laptop
+229,Roberta Walters,roberta.walters665@hotmail.com,Female,Gaming Console,2024-10-27,Billing Issue,Refund Status,Refund of $210 not received after 10 days
+230,Carmen Davis,carmen.davis629@yahoo.com,Female,Smartphone,2024-12-29,Shipping Problem,Tracking Issues,Package marked as delivered but not received
+231,Kathleen Grover,kathleen.grover968@yahoo.com,Female,Laptop,2024-03-27,Account Access,Profile Update Failed,Two-factor authentication not sending SMS code
+232,Annette Shultz,annette.shultz210@yahoo.com,Female,Smartphone,2024-10-17,Technical Support,Update Failed,Getting error code E123 during operation
+233,Janine Winfrey,janine.winfrey407@outlook.com,Female,Smartphone,2024-05-24,Product Inquiry,Feature Information,What is the warranty period for this product?
+234,Samuel Barron,samuel.barron805@hotmail.com,Male,Laptop,2024-01-28,Product Defect,Screen Issue,Battery only lasts 2 hours instead of advertised 9 hours
+235,Tracey Sabin,tracey.sabin343@hotmail.com,Female,Laptop,2024-09-10,Billing Issue,Price Discrepancy,Refund of $327 not received after 15 days
+236,Julius Harman,julius.harman918@outlook.com,Male,Fitness Tracker,2024-04-07,Account Access,Login Problems,Account locked due to security concern
+237,Graciela Wood,graciela.wood35@hotmail.com,Female,Digital Camera,2024-07-13,Product Defect,Hardware Damage,Battery only lasts 3 hours instead of advertised 11 hours
+238,Alex Vazquez,alex.vazquez637@yahoo.com,Male,Digital Camera,2024-11-16,Account Access,Profile Update Failed,Password reset email not received after 3 hours of request
+239,Shane Edwards,shane.edwards168@yahoo.com,Male,Blender,2024-09-24,Shipping Problem,Delivery Delay,Order #361515 stuck in customs for 8 days
+240,Eugene Ling,eugene.ling319@outlook.com,Male,Mechanical Keyboard,2024-07-01,Product Defect,Screen Issue,Mechanical Keyboard arrived with scratches in the side
+241,David Goldberg,david.goldberg840@yahoo.com,Male,Smartphone,2024-07-14,Feature Request,UI Enhancement,Requesting integration with Amazon Alexa for better functionality
+242,Sara Mills,sara.mills549@hotmail.com,Female,Electric Kettle,2024-08-04,Account Access,Two-Factor Issues,Two-factor authentication not sending verification code
+243,Jeffrey Mitchell,jeffrey.mitchell851@outlook.com,Male,Laptop,2024-03-09,Billing Issue,Price Discrepancy,Charged three times for order #91298
+244,Sherri Moreno,sherri.moreno142@hotmail.com,Female,Security Camera,2024-05-05,Shipping Problem,Wrong Address,Shipping label shows wrong zip code
+245,Carrie Barker,carrie.barker948@outlook.com,Female,Portable Charger,2024-05-18,Product Inquiry,Warranty Question,Can this Portable Charger work with Windows PC?
+246,Ivan Rodriques,ivan.rodriques167@outlook.com,Male,Smartphone,2024-01-11,Feature Request,Performance Upgrade,Need user profiles feature for better usability
+247,Sharon Dubose,sharon.dubose778@yahoo.com,Female,Air Purifier,2024-06-18,Product Inquiry,Usage Guidelines,What is the warranty period for this product?
+248,Adolfo Smith,adolfo.smith409@hotmail.com,Male,Fitness Tracker,2024-10-30,Return Request,Size Issue,Package arrived tampered and missing manual
+249,Dorothy Schnitker,dorothy.schnitker855@outlook.com,Female,Digital Camera,2024-12-13,Shipping Problem,Wrong Address,Order #912903 stuck in customs for 11 days
+250,Stephen Wright,stephen.wright401@hotmail.com,Male,Blender,2024-10-11,Shipping Problem,Customs Hold,Tracking shows delivery to wrong city
+251,Joan Brokaw,joan.brokaw937@outlook.com,Female,Desktop PC,2024-10-20,Technical Support,Performance Problems,Getting black screen every 20 minutes
+252,Lisa Berg,lisa.berg145@hotmail.com,Female,Wireless Router,2024-08-24,Technical Support,Update Failed,Unable to connect to Bluetooth after recent update
+253,George Zimmer,george.zimmer117@hotmail.com,Male,Wireless Router,2024-06-09,Account Access,Password Reset,Account locked due to multiple login attempts
+254,Judith Jones,judith.jones202@gmail.com,Female,Gaming Console,2024-05-02,Return Request,Not as Described,Received wrong size of Gaming Console
+255,David Nichol,david.nichol665@gmail.com,Male,Smartphone,2024-09-30,Billing Issue,Subscription Issue,Monthly subscription of $58 charged incorrectly on debit card
+256,Daniel Colunga,daniel.colunga233@yahoo.com,Male,Electric Kettle,2024-10-08,Shipping Problem,Damaged in Transit,Package marked as delivered but not received
+257,Richard Perrien,richard.perrien615@gmail.com,Male,Wireless Router,2024-04-12,Account Access,Login Problems,Cannot login after 10 attempts with correct credentials
+258,Howard Henry,howard.henry178@outlook.com,Male,Laptop,2024-09-23,Technical Support,Device Not Connecting,Unable to connect to Bluetooth after recent update
+259,Jaime Verhaag,jaime.verhaag270@gmail.com,Male,Smart Doorbell,2024-04-16,Billing Issue,Double Charge,Charged three times for order #13914
+260,Michael Williams,michael.williams964@gmail.com,Male,Digital Camera,2024-06-20,Account Access,Profile Update Failed,Account locked due to suspicious activity
+261,Jason Kaplan,jason.kaplan419@hotmail.com,Male,Digital Camera,2024-04-04,Product Defect,Hardware Damage,Display showing dead pixels after 5 days
+262,Jacquelyn Washington,jacquelyn.washington70@gmail.com,Female,Wireless Router,2024-05-30,Billing Issue,Double Charge,Charged three times for order #47062
+263,Consuelo Eatmon,consuelo.eatmon432@hotmail.com,Female,External SSD,2024-04-19,Account Access,Profile Update Failed,Account locked due to multiple login attempts
+264,Derrick Burgess,derrick.burgess963@gmail.com,Male,Robot Vacuum,2024-04-14,Feature Request,Additional Function,Would like to see voice control feature added
+265,Leonardo Seeholzer,leonardo.seeholzer740@outlook.com,Male,External SSD,2024-08-09,Shipping Problem,Tracking Issues,Tracking shows delivery to wrong address
+266,Tobias Reigle,tobias.reigle565@gmail.com,Male,Smart Doorbell,2024-09-16,Billing Issue,Refund Status,Charged twice for order #25623
+267,Harold Anderson,harold.anderson730@gmail.com,Male,External SSD,2024-06-09,Shipping Problem,Lost Package,Order #844497 stuck in transit for 12 days
+268,Sharon Larsen,sharon.larsen53@outlook.com,Female,Smart Watch,2024-12-25,Feature Request,Additional Function,Suggest adding quiet mode to improve user experience
+269,Jennifer Gearing,jennifer.gearing192@yahoo.com,Female,Tablet,2024-07-21,Feature Request,Additional Function,Requesting integration with Apple HomeKit for better functionality
+270,Robert Sackett,robert.sackett610@outlook.com,Male,Smart Doorbell,2024-02-15,Technical Support,Device Not Connecting,Smart Doorbell keeps restarting randomly during evening hours
+271,James Walker,james.walker165@hotmail.com,Male,4K TV,2024-02-26,Product Defect,Screen Issue,4K TV arrived with scratches in the side
+272,Nicholas Schroder,nicholas.schroder248@gmail.com,Male,Gaming Console,2024-11-26,Feature Request,New Integration,Suggest adding dark mode to improve user experience
+273,Cindy Scott,cindy.scott270@hotmail.com,Female,Desktop PC,2024-01-18,Product Inquiry,Accessory Compatibility,What is the warranty period for this product?
+274,Tomas Bell,tomas.bell668@outlook.com,Male,Security Camera,2024-06-18,Return Request,Defective Product,Received wrong color of Security Camera
+275,Dave Castleberry,dave.castleberry61@hotmail.com,Male,Electric Kettle,2024-05-06,Product Inquiry,Feature Information,What is the replacement policy for this product?
+276,Stephanie Kornfeld,stephanie.kornfeld106@hotmail.com,Female,Wireless Earbuds,2024-01-20,Product Defect,Hardware Damage,Button stopped working after first use
+277,Scott Underwood,scott.underwood113@outlook.com,Male,Gaming Mouse,2024-02-11,Feature Request,Accessibility Feature,Need scheduling options feature for better usability
+278,Inez Jennings,inez.jennings935@gmail.com,Female,Fitness Tracker,2024-10-27,Product Defect,Screen Issue,Battery only lasts 1 hours instead of advertised 12 hours
+279,Gertrude Laureano,gertrude.laureano621@outlook.com,Female,Gaming Console,2024-07-29,Return Request,Not as Described,Package arrived opened and missing warranty card
+280,Elizabeth Maples,elizabeth.maples477@gmail.com,Female,Fitness Tracker,2024-02-11,Technical Support,Performance Problems,Getting freeze every 24 minutes
+281,Irene Antolin,irene.antolin791@outlook.com,Female,External SSD,2024-07-06,Return Request,Defective Product,Received wrong model of External SSD
+282,Samantha Smith,samantha.smith545@outlook.com,Female,Security Camera,2024-07-29,Billing Issue,Double Charge,Unauthorized charge of $121 appeared on this morning
+283,Gale Pinheiro,gale.pinheiro663@outlook.com,Male,Blender,2024-10-03,Technical Support,Update Failed,Unable to connect to internet after recent update
+284,Tim Churchill,tim.churchill813@outlook.com,Male,Electric Kettle,2024-09-20,Return Request,Size Issue,Product doesn't work as expected
+285,Erica Constanza,erica.constanza332@yahoo.com,Female,Security Camera,2024-07-23,Shipping Problem,Lost Package,Order #247199 stuck in customs for 9 days
+286,Robin Spicer,robin.spicer784@outlook.com,Female,Wireless Headphones,2024-08-12,Shipping Problem,Wrong Address,Tracking shows delivery to wrong address
+287,Charles Nicholls,charles.nicholls145@outlook.com,Male,Wireless Router,2024-05-25,Billing Issue,Subscription Issue,Price shown at checkout ($409) different from charged amount
+288,Theresa Correa,theresa.correa685@outlook.com,Female,Smart Doorbell,2024-03-09,Feature Request,Additional Function,Would like to see gesture recognition feature added
+289,Marianne Long,marianne.long97@gmail.com,Female,Fitness Tracker,2024-10-07,Return Request,Unsatisfactory,Product doesn't work as expected
+290,Carlos Moore,carlos.moore494@gmail.com,Male,Wireless Earbuds,2024-02-14,Product Inquiry,Technical Specs,Does it support USB-C?
+291,Elizabeth Beal,elizabeth.beal780@hotmail.com,Female,Wireless Headphones,2024-10-17,Return Request,Wrong Item,Received wrong color of Wireless Headphones
+292,Stanley Waterer,stanley.waterer404@outlook.com,Male,Portable Charger,2024-04-13,Product Defect,Quality Control,Battery only lasts 1 hours instead of advertised 11 hours
+293,Robert Collier,robert.collier941@hotmail.com,Male,Smartphone,2024-07-19,Feature Request,Mobile App Request,Need user profiles feature for better usability
+294,Janet Smith,janet.smith457@hotmail.com,Female,Desktop PC,2024-01-28,Technical Support,Error Messages,Getting freeze every 25 minutes
+295,Tamika Craig,tamika.craig216@hotmail.com,Female,Smartphone,2024-10-21,Return Request,Not as Described,Package arrived damaged and missing manual
+296,Pedro Kron,pedro.kron373@outlook.com,Male,Fitness Tracker,2024-11-24,Feature Request,Accessibility Feature,Requesting integration with Apple HomeKit for better functionality
+297,James Livley,james.livley177@outlook.com,Male,4K TV,2024-08-17,Shipping Problem,Customs Hold,Shipping label shows incorrect address
+298,Jerome Wells,jerome.wells336@hotmail.com,Male,Wireless Headphones,2024-12-20,Feature Request,Accessibility Feature,Would like to see gesture recognition feature added
+299,Jessica Jackson,jessica.jackson437@outlook.com,Female,Wireless Headphones,2024-03-16,Product Inquiry,Warranty Question,Looking for dimensions specifications
+300,Mary Wall,mary.wall933@hotmail.com,Female,Wireless Earbuds,2024-12-03,Product Inquiry,Feature Information,Can this Wireless Earbuds work with Windows PC?
+301,Gary Hall,gary.hall218@outlook.com,Male,Wireless Earbuds,2024-12-15,Return Request,Not as Described,Received wrong size of Wireless Earbuds
+302,Mathew White,mathew.white165@gmail.com,Male,Fitness Tracker,2024-11-26,Billing Issue,Invoice Question,Charged three times for order #37232
+303,Gregory Fawver,gregory.fawver626@yahoo.com,Male,Blender,2024-04-28,Feature Request,Mobile App Request,Requesting integration with Amazon Alexa for better functionality
+304,Yolanda Patrick,yolanda.patrick986@gmail.com,Female,Security Camera,2024-05-31,Account Access,Password Reset,Cannot login after 6 attempts with correct credentials
+305,Lucas Douglas,lucas.douglas359@yahoo.com,Male,Wireless Headphones,2024-06-20,Product Defect,Quality Control,Wireless Headphones arrived with missing parts in the bottom
+306,Victoria Hewett,victoria.hewett675@hotmail.com,Female,Wireless Router,2024-03-10,Billing Issue,Invoice Question,Charged three times for order #31116
+307,Tracy Vanhorne,tracy.vanhorne798@gmail.com,Male,Desktop PC,2024-08-20,Product Defect,Hardware Damage,Panel showing flickering after 17 days
+308,Patricia Madden,patricia.madden329@outlook.com,Female,Air Purifier,2024-07-31,Technical Support,Software Issues,Device making strange clicking noise when starting up
+309,Daniel Calhoon,daniel.calhoon353@outlook.com,Male,Portable Charger,2024-11-22,Billing Issue,Refund Status,Price shown at checkout ($694) different from charged amount
+310,Johnnie Gore,johnnie.gore311@hotmail.com,Male,Fitness Tracker,2024-11-04,Feature Request,Mobile App Request,Suggest adding power saving mode to improve user experience
+311,Rodney Oneil,rodney.oneil894@gmail.com,Male,Smart Thermostat,2024-12-11,Technical Support,Update Failed,Getting error code E123 during startup
+312,Paul Lazor,paul.lazor841@gmail.com,Male,Security Camera,2024-08-30,Technical Support,Software Issues,Experience freezing when using advanced features
+313,Faye Mcleod,faye.mcleod31@yahoo.com,Female,Robot Vacuum,2024-11-19,Technical Support,Error Messages,Experience lag when using advanced features
+314,Patricia Brinson,patricia.brinson508@yahoo.com,Female,Smart Thermostat,2024-01-25,Account Access,Password Reset,Account locked due to suspicious activity
+315,Mariana Eddins,mariana.eddins902@yahoo.com,Female,Wireless Earbuds,2024-03-06,Product Defect,Screen Issue,Display showing flickering after 13 days
+316,Rosie Laughlin,rosie.laughlin25@hotmail.com,Female,Air Purifier,2024-01-24,Technical Support,Update Failed,Air Purifier keeps restarting randomly during evening hours
+317,Stacy Bryant,stacy.bryant688@gmail.com,Female,Wireless Earbuds,2024-03-10,Feature Request,Accessibility Feature,Suggest adding dark mode to improve user experience
+318,Justin Bowlin,justin.bowlin347@gmail.com,Male,Laptop,2024-09-25,Technical Support,Performance Problems,Experience freezing when using multiple apps
+319,David Earl,david.earl184@yahoo.com,Male,Portable Charger,2024-08-09,Feature Request,Accessibility Feature,Would like to see remote access feature added
+320,Rachel Murch,rachel.murch142@outlook.com,Female,Wireless Headphones,2024-09-19,Technical Support,Setup Help,Getting error code Y789 during operation
+321,David Hodge,david.hodge829@gmail.com,Male,Smart Watch,2024-10-05,Billing Issue,Price Discrepancy,Unauthorized charge of $26 appeared on yesterday
+322,Carol Bobo,carol.bobo893@yahoo.com,Female,Tablet,2024-06-24,Technical Support,Device Not Connecting,Getting error code X456 during startup
+323,Cathi Shirk,cathi.shirk88@yahoo.com,Female,Digital Camera,2024-02-01,Account Access,Login Problems,Password reset email not received after 1 hours of request
+324,Janice Nelson,janice.nelson372@hotmail.com,Female,Gaming Console,2024-11-29,Return Request,Wrong Item,Found better alternative after 1 days of use
+325,Judy Moon,judy.moon831@outlook.com,Female,Wireless Earbuds,2024-03-03,Product Inquiry,Accessory Compatibility,Can this Wireless Earbuds work with Android?
+326,Margaret Bentley,margaret.bentley270@outlook.com,Female,Smart Thermostat,2024-10-29,Shipping Problem,Delivery Delay,Shipping label shows wrong name
+327,Teresa Griffin,teresa.griffin99@gmail.com,Female,Wireless Router,2024-11-05,Shipping Problem,Wrong Address,Tracking shows delivery to wrong state
+328,Richard Meza,richard.meza199@outlook.com,Male,4K TV,2024-07-21,Billing Issue,Price Discrepancy,Price shown at checkout ($639) different from charged amount
+329,Tammy Naiman,tammy.naiman950@gmail.com,Female,Desktop PC,2024-03-06,Account Access,Login Problems,Cannot login after 8 attempts with correct credentials
+330,Thomas Grier,thomas.grier519@hotmail.com,Male,Smart Thermostat,2024-06-17,Billing Issue,Price Discrepancy,Unauthorized charge of $32 appeared on yesterday
+331,Clara Hooker,clara.hooker30@outlook.com,Female,4K TV,2024-03-25,Billing Issue,Price Discrepancy,Price shown at checkout ($183) different from charged amount
+332,Roger Redden,roger.redden963@yahoo.com,Male,Portable Charger,2024-12-30,Billing Issue,Price Discrepancy,Unauthorized charge of $114 appeared on yesterday
+333,Virginia Schultz,virginia.schultz254@hotmail.com,Female,Fitness Tracker,2024-03-22,Shipping Problem,Tracking Issues,Tracking shows delivery to wrong city
+334,Jane Stinson,jane.stinson205@yahoo.com,Female,Gaming Mouse,2024-06-10,Shipping Problem,Delivery Delay,Package marked as delivered but missing
+335,Joe Helm,joe.helm45@hotmail.com,Male,Air Purifier,2024-02-07,Technical Support,Error Messages,Experience lag when using multiple apps
+336,Betty Cada,betty.cada586@yahoo.com,Female,External SSD,2024-11-06,Return Request,Wrong Item,Found better alternative after 2 days of use
+337,Thomas Votaw,thomas.votaw387@hotmail.com,Male,Fitness Tracker,2024-01-28,Billing Issue,Subscription Issue,Unauthorized charge of $140 appeared on this morning
+338,Earl Moore,earl.moore674@yahoo.com,Male,Robot Vacuum,2024-01-03,Product Defect,Manufacturing Issue,Screen showing dead pixels after 3 days
+339,Joseph Raines,joseph.raines712@gmail.com,Male,Desktop PC,2024-08-20,Billing Issue,Invoice Question,Unauthorized charge of $83 appeared on last week
+340,Richard Sipple,richard.sipple119@yahoo.com,Male,Blender,2024-01-29,Product Defect,Manufacturing Issue,Battery only lasts 4 hours instead of advertised 11 hours
+341,Solomon Guillen,solomon.guillen214@gmail.com,Male,Digital Camera,2024-10-13,Product Defect,Battery Problem,Battery only lasts 1 hours instead of advertised 8 hours
+342,Ivy Engelhardt,ivy.engelhardt31@yahoo.com,Female,Tablet,2024-05-07,Product Inquiry,Feature Information,Can this Tablet work with Android?
+343,Robert Wait,robert.wait95@outlook.com,Male,Smart Speaker,2024-07-14,Shipping Problem,Customs Hold,Order #302097 stuck in processing for 9 days
+344,Celeste Montgomery,celeste.montgomery417@gmail.com,Female,Wireless Router,2024-09-21,Product Defect,Hardware Damage,Switch stopped working after normal use
+345,Emmanuel Potter,emmanuel.potter357@outlook.com,Male,Smartphone,2024-03-27,Return Request,Not as Described,Found better alternative after 5 days of use
+346,Melanie Borden,melanie.borden397@gmail.com,Female,Smart Speaker,2024-10-09,Shipping Problem,Lost Package,Shipping label shows incorrect address
+347,Sandra Kennedy,sandra.kennedy47@yahoo.com,Female,Desktop PC,2024-04-13,Feature Request,Additional Function,Suggest adding power saving mode to improve user experience
+348,Cindy Alexander,cindy.alexander696@outlook.com,Female,Portable Charger,2024-05-09,Shipping Problem,Delivery Delay,Order #998168 stuck in processing for 15 days
+349,Raymond Patrick,raymond.patrick614@yahoo.com,Male,Gaming Mouse,2024-01-13,Return Request,Unsatisfactory,Package arrived tampered and missing warranty card
+350,Enriqueta Donald,enriqueta.donald898@outlook.com,Female,Portable Charger,2024-12-18,Return Request,Wrong Item,Product doesn't match description
+351,Vernon Crafter,vernon.crafter483@hotmail.com,Male,Smartphone,2024-12-19,Billing Issue,Refund Status,Price shown at checkout ($488) different from charged amount
+352,Helen Perry,helen.perry440@yahoo.com,Female,Smart Watch,2024-09-02,Billing Issue,Payment Failed,Charged three times for order #58867
+353,Bertha Costello,bertha.costello41@gmail.com,Female,Security Camera,2024-03-01,Technical Support,Device Not Connecting,Unable to connect to WiFi after recent update
+354,Harry Dawson,harry.dawson904@outlook.com,Male,Electric Kettle,2024-07-16,Feature Request,Mobile App Request,Suggest adding dark mode to improve user experience
+355,Lee Money,lee.money563@yahoo.com,Male,Mechanical Keyboard,2024-03-29,Return Request,Not as Described,Package arrived tampered and missing manual
+356,Teresa Cope,teresa.cope556@yahoo.com,Female,Digital Camera,2024-04-13,Product Defect,Malfunction,Digital Camera arrived with dents in the side
+357,Dennis Rhodes,dennis.rhodes667@hotmail.com,Male,Wireless Headphones,2024-08-25,Shipping Problem,Tracking Issues,Package marked as delivered but nowhere to be found
+358,Robert Stapleton,robert.stapleton816@yahoo.com,Male,Wireless Earbuds,2024-09-06,Billing Issue,Price Discrepancy,Refund of $120 not received after 10 days
+359,John Cates,john.cates87@outlook.com,Male,Wireless Headphones,2024-08-16,Product Inquiry,Accessory Compatibility,Looking for weight specifications
+360,Brett Ratliff,brett.ratliff224@gmail.com,Male,Laptop,2024-04-06,Product Defect,Screen Issue,Laptop arrived with scratches in the bottom
+361,Randy Hopkins,randy.hopkins52@yahoo.com,Male,Security Camera,2024-07-31,Product Inquiry,Warranty Question,Can this Security Camera work with Windows PC?
+362,Ashley Cole,ashley.cole716@hotmail.com,Female,Gaming Mouse,2024-11-07,Return Request,Defective Product,Received wrong size of Gaming Mouse
+363,Patricia Bashore,patricia.bashore778@gmail.com,Female,External SSD,2024-04-22,Billing Issue,Payment Failed,Charged three times for order #71019
+364,Michael Navarro,michael.navarro647@yahoo.com,Male,Laptop,2024-01-21,Product Defect,Malfunction,Laptop arrived with dents in the side
+365,Richard Gabriel,richard.gabriel423@outlook.com,Male,Smart Watch,2024-01-16,Shipping Problem,Tracking Issues,Shipping label shows wrong zip code
+366,James Kridel,james.kridel886@hotmail.com,Female,Air Purifier,2024-05-15,Technical Support,Software Issues,Air Purifier keeps restarting randomly during evening hours
+367,Patrica Caruso,patrica.caruso53@outlook.com,Female,Wireless Earbuds,2024-11-06,Billing Issue,Double Charge,Monthly subscription of $14 charged incorrectly on debit card
+368,Ben Sparks,ben.sparks925@outlook.com,Male,Wireless Router,2024-01-16,Shipping Problem,Lost Package,Order #222653 stuck in transit for 10 days
+369,Jonathan Deaton,jonathan.deaton910@outlook.com,Male,Smart Watch,2024-03-27,Feature Request,Mobile App Request,Need customizable alerts feature for better usability
+370,Gerald Vela,gerald.vela731@outlook.com,Male,Gaming Mouse,2024-01-24,Account Access,Password Reset,Password reset email not received after 1 hours of request
+371,John Foret,john.foret622@outlook.com,Male,Wireless Earbuds,2024-10-16,Product Inquiry,Accessory Compatibility,Looking for power requirements specifications
+372,Susan Bennett,susan.bennett402@hotmail.com,Female,Wireless Headphones,2024-02-12,Feature Request,Additional Function,Requesting integration with Apple HomeKit for better functionality
+373,Katheryn Mullen,katheryn.mullen826@hotmail.com,Female,Smart Thermostat,2024-10-02,Product Inquiry,Usage Guidelines,Looking for dimensions specifications
+374,Brian Johnson,brian.johnson20@hotmail.com,Male,External SSD,2024-12-17,Technical Support,Performance Problems,Device making strange buzzing noise when shutting down
+375,James Thompson,james.thompson461@outlook.com,Male,Gaming Mouse,2024-05-01,Account Access,Login Problems,Cannot login after 8 attempts with correct credentials
+376,Derek Garvie,derek.garvie772@hotmail.com,Male,Security Camera,2024-03-22,Account Access,Security Concerns,Cannot login after 4 attempts with correct credentials
+377,Chad Ledoux,chad.ledoux751@gmail.com,Male,External SSD,2024-06-11,Billing Issue,Price Discrepancy,Refund of $244 not received after 11 days
+378,Modesta Agee,modesta.agee370@outlook.com,Female,Desktop PC,2024-06-27,Shipping Problem,Wrong Address,Order #219894 stuck in processing for 14 days
+379,Magdalena Lewis,magdalena.lewis286@yahoo.com,Female,Desktop PC,2024-01-26,Product Inquiry,Technical Specs,Can this Desktop PC work with Android?
+380,Patricia Menz,patricia.menz23@yahoo.com,Female,Wireless Earbuds,2024-12-21,Shipping Problem,Lost Package,Package marked as delivered but nowhere to be found
+381,Andres Mcgrath,andres.mcgrath504@outlook.com,Male,Smart Thermostat,2024-12-21,Account Access,Login Problems,Account locked due to suspicious activity
+382,Marie Bullock,marie.bullock407@outlook.com,Female,Blender,2024-09-04,Account Access,Profile Update Failed,Cannot login after 3 attempts with correct credentials
+383,Andrea Oliver,andrea.oliver42@yahoo.com,Female,Blender,2024-03-27,Account Access,Login Problems,Account locked due to security concern
+384,Lucinda Nelson,lucinda.nelson272@yahoo.com,Female,Wireless Earbuds,2024-02-23,Return Request,Wrong Item,Package arrived tampered and missing warranty card
+385,Jenny Zachmann,jenny.zachmann403@outlook.com,Female,Wireless Headphones,2024-12-20,Technical Support,Performance Problems,Getting error code E123 during startup
+386,Linda Lorge,linda.lorge254@gmail.com,Female,Gaming Mouse,2024-09-21,Product Defect,Malfunction,Battery only lasts 3 hours instead of advertised 9 hours
+387,Nadine Glidden,nadine.glidden417@gmail.com,Female,Smartphone,2024-11-08,Feature Request,Accessibility Feature,Would like to see gesture recognition feature added
+388,Ted Chapa,ted.chapa566@hotmail.com,Male,Laptop,2024-08-17,Product Defect,Quality Control,Panel showing dead pixels after 10 days
+389,Patricia Drake,patricia.drake895@hotmail.com,Female,Fitness Tracker,2024-10-12,Technical Support,Device Not Connecting,Keeps disconnecting from internet after recent update
+390,Patty Edwards,patty.edwards689@outlook.com,Female,Wireless Earbuds,2024-05-16,Return Request,Not as Described,Found better alternative after 7 days of use
+391,Dion Carroll,dion.carroll71@yahoo.com,Male,Wireless Earbuds,2024-09-10,Product Inquiry,Usage Guidelines,Does it support fast charging?
+392,Viola Thresher,viola.thresher834@outlook.com,Female,Security Camera,2024-12-30,Return Request,Unsatisfactory,Received wrong color of Security Camera
+393,Elizabeth Enoch,elizabeth.enoch98@gmail.com,Female,Blender,2024-11-03,Shipping Problem,Damaged in Transit,Package marked as delivered but nowhere to be found
+394,Eric Peoples,eric.peoples493@outlook.com,Male,Electric Kettle,2024-08-09,Billing Issue,Price Discrepancy,Price shown at checkout ($257) different from charged amount
+395,Jennifer Davis,jennifer.davis947@gmail.com,Female,Wireless Earbuds,2024-05-12,Technical Support,Error Messages,Getting blue screen every 42 minutes
+396,Sylvia Piche,sylvia.piche878@gmail.com,Female,4K TV,2024-05-08,Feature Request,Mobile App Request,Need user profiles feature for better usability
+397,Victor Doucet,victor.doucet617@outlook.com,Male,Desktop PC,2024-02-07,Product Inquiry,Feature Information,Looking for dimensions specifications
+398,William Nice,william.nice243@gmail.com,Male,Mechanical Keyboard,2024-06-11,Account Access,Two-Factor Issues,Two-factor authentication not sending email code
+399,Christopher Adam,christopher.adam914@outlook.com,Male,Smart Doorbell,2024-04-12,Return Request,Unsatisfactory,Received wrong size of Smart Doorbell
+400,Violet Berrier,violet.berrier916@gmail.com,Female,Smart Watch,2024-02-03,Shipping Problem,Damaged in Transit,Order #650344 stuck in processing for 9 days
+401,Ivan Gibbons,ivan.gibbons266@yahoo.com,Male,Electric Kettle,2024-05-20,Account Access,Two-Factor Issues,Account locked due to multiple login attempts
+402,Shanika Nielson,shanika.nielson514@hotmail.com,Female,Gaming Console,2024-08-03,Product Inquiry,Feature Information,Does it support fast charging?
+403,Roderick Allen,roderick.allen370@gmail.com,Male,Smart Watch,2024-10-08,Return Request,Unsatisfactory,Product doesn't match description
+404,Sheena Newton,sheena.newton333@gmail.com,Female,Smart Doorbell,2024-09-22,Account Access,Security Concerns,Cannot login after 6 attempts with correct credentials
+405,Marisa Beliles,marisa.beliles507@gmail.com,Female,Smart Speaker,2024-04-26,Return Request,Change Mind,Received wrong size of Smart Speaker
+406,Lori Gilmore,lori.gilmore557@yahoo.com,Female,Smart Speaker,2024-05-22,Feature Request,Accessibility Feature,Requesting integration with Google Home for better functionality
+407,Dennis Schmidt,dennis.schmidt541@yahoo.com,Male,Tablet,2024-05-28,Technical Support,Update Failed,Tablet keeps restarting randomly during morning hours
+408,James Mason,james.mason773@hotmail.com,Male,Monitor,2024-02-10,Feature Request,Mobile App Request,Need customizable alerts feature for better usability
+409,Neal Moore,neal.moore882@hotmail.com,Male,Wireless Earbuds,2024-10-06,Billing Issue,Subscription Issue,Unauthorized charge of $106 appeared on last week
+410,Dennis Delacruz,dennis.delacruz411@gmail.com,Male,Smart Doorbell,2024-09-22,Feature Request,Accessibility Feature,Requesting integration with Amazon Alexa for better functionality
+411,Bertha Sexton,bertha.sexton141@outlook.com,Female,Security Camera,2024-05-26,Billing Issue,Payment Failed,Refund of $413 not received after 11 days
+412,Edith Bender,edith.bender545@hotmail.com,Female,External SSD,2024-07-26,Technical Support,Update Failed,Keeps disconnecting from internet after recent update
+413,Carey Fuqua,carey.fuqua710@gmail.com,Male,Air Purifier,2024-05-13,Account Access,Login Problems,Cannot login after 5 attempts with correct credentials
+414,April Paul,april.paul3@hotmail.com,Female,Wireless Router,2024-04-07,Technical Support,Performance Problems,Getting error code X456 during shutdown
+415,Veronica Yankee,veronica.yankee30@outlook.com,Female,External SSD,2024-04-03,Product Defect,Malfunction,Port stopped working after first use
+416,Virginia Isom,virginia.isom69@yahoo.com,Female,Digital Camera,2024-11-02,Technical Support,Performance Problems,Digital Camera keeps restarting randomly during morning hours
+417,Velma Hartnett,velma.hartnett852@yahoo.com,Female,4K TV,2024-11-09,Feature Request,Additional Function,Suggest adding quiet mode to improve user experience
+418,Linda Huff,linda.huff20@outlook.com,Female,Smartphone,2024-04-26,Billing Issue,Refund Status,Unauthorized charge of $157 appeared on this morning
+419,Melanie Valley,melanie.valley131@gmail.com,Female,Smartphone,2024-05-29,Product Defect,Battery Problem,Screen showing dead pixels after 18 days
+420,Edward Quella,edward.quella574@gmail.com,Male,Mechanical Keyboard,2024-08-20,Account Access,Security Concerns,Cannot login after 6 attempts with correct credentials
+421,Antonio Tucker,antonio.tucker302@gmail.com,Male,Tablet,2024-01-09,Billing Issue,Payment Failed,Price shown at checkout ($149) different from charged amount
+422,Adam English,adam.english189@outlook.com,Male,Mechanical Keyboard,2024-06-14,Product Defect,Screen Issue,Battery only lasts 4 hours instead of advertised 8 hours
+423,Kathleen Hanko,kathleen.hanko255@gmail.com,Female,Portable Charger,2024-01-25,Billing Issue,Invoice Question,Monthly subscription of $98 charged incorrectly on PayPal
+424,Jeanne Hess,jeanne.hess885@outlook.com,Female,Smart Watch,2024-02-08,Product Inquiry,Usage Guidelines,Does it support wireless charging?
+425,Brandon Canclini,brandon.canclini29@outlook.com,Male,Laptop,2024-01-10,Return Request,Change Mind,Product doesn't match description
+426,Paulette Adams,paulette.adams650@gmail.com,Female,Desktop PC,2024-03-04,Account Access,Security Concerns,Account locked due to suspicious activity
+427,Joy Purcell,joy.purcell68@outlook.com,Female,Wireless Earbuds,2024-09-29,Shipping Problem,Customs Hold,Package marked as delivered but nowhere to be found
+428,Thomas Peltz,thomas.peltz390@yahoo.com,Male,Wireless Headphones,2024-08-10,Return Request,Change Mind,Received wrong size of Wireless Headphones
+429,Reginald Yamasaki,reginald.yamasaki322@hotmail.com,Male,Blender,2024-02-25,Product Inquiry,Usage Guidelines,Can this Blender work with Windows PC?
+430,Ralph Scherzer,ralph.scherzer758@gmail.com,Male,Air Purifier,2024-03-06,Shipping Problem,Wrong Address,Tracking shows delivery to wrong address
+431,Marc Rogers,marc.rogers222@yahoo.com,Male,Monitor,2024-10-26,Return Request,Wrong Item,Product doesn't work as expected
+432,Marilyn Bramlet,marilyn.bramlet595@gmail.com,Female,Robot Vacuum,2024-08-06,Product Inquiry,Compatibility Check,Can this Robot Vacuum work with iPhone?
+433,Claude Gray,claude.gray724@yahoo.com,Male,Smart Speaker,2024-08-29,Technical Support,Software Issues,Smart Speaker keeps restarting randomly during morning hours
+434,Elizabeth Strickland,elizabeth.strickland291@gmail.com,Female,Smartphone,2024-12-10,Feature Request,Performance Upgrade,Would like to see voice control feature added
+435,Dorla Green,dorla.green548@hotmail.com,Female,Blender,2024-02-11,Shipping Problem,Customs Hold,Package marked as delivered but nowhere to be found
+436,Charles Gonzalez,charles.gonzalez125@outlook.com,Male,Security Camera,2024-07-01,Product Defect,Screen Issue,Security Camera arrived with missing parts in the side
+437,Shannon Hunn,shannon.hunn178@gmail.com,Female,Monitor,2024-09-11,Account Access,Security Concerns,Two-factor authentication not sending verification code
+438,Erika Kline,erika.kline422@gmail.com,Female,Wireless Earbuds,2024-10-21,Billing Issue,Price Discrepancy,Monthly subscription of $87 charged incorrectly on PayPal
+439,Thomas Santos,thomas.santos230@hotmail.com,Male,Gaming Console,2024-09-06,Technical Support,Update Failed,Getting error code Y789 during shutdown
+440,Javier Young,javier.young217@yahoo.com,Male,Smart Doorbell,2024-11-29,Technical Support,Software Issues,Smart Doorbell keeps restarting randomly during night hours
+441,Robin White,robin.white389@yahoo.com,Female,Smart Speaker,2024-12-18,Technical Support,Error Messages,Device making strange clicking noise when shutting down
+442,Ed Smith,ed.smith664@yahoo.com,Male,Electric Kettle,2024-02-05,Product Defect,Screen Issue,Electric Kettle arrived with missing parts in the side
+443,Maritza Ritchie,maritza.ritchie921@outlook.com,Female,Robot Vacuum,2024-08-29,Billing Issue,Subscription Issue,Monthly subscription of $30 charged incorrectly on debit card
+444,Jessie Kolb,jessie.kolb27@outlook.com,Female,Smart Watch,2024-06-29,Product Inquiry,Accessory Compatibility,Can this Smart Watch work with Android?
+445,Lon Bills,lon.bills581@yahoo.com,Male,Security Camera,2024-03-30,Account Access,Security Concerns,Account locked due to security concern
+446,Josephine Stromquist,josephine.stromquist14@hotmail.com,Female,Smart Doorbell,2024-08-29,Technical Support,Error Messages,Experience freezing when using multiple apps
+447,John Payne,john.payne742@yahoo.com,Male,Wireless Headphones,2024-02-06,Billing Issue,Price Discrepancy,Unauthorized charge of $123 appeared on this morning
+448,John Alvarez,john.alvarez724@gmail.com,Male,Smartphone,2024-10-28,Return Request,Not as Described,Received wrong model of Smartphone
+449,Suzanne Simmons,suzanne.simmons539@gmail.com,Female,Wireless Earbuds,2024-02-20,Product Defect,Malfunction,Wireless Earbuds arrived with missing parts in the side
+450,John Pratt,john.pratt161@outlook.com,Male,Gaming Mouse,2024-05-12,Product Inquiry,Feature Information,Looking for power requirements specifications
+451,James Sheroan,james.sheroan245@gmail.com,Male,Blender,2024-07-16,Return Request,Size Issue,Product doesn't work as expected
+452,Amber Crooks,amber.crooks584@gmail.com,Female,Gaming Console,2024-05-25,Billing Issue,Payment Failed,Charged three times for order #94798
+453,Janyce Singleton,janyce.singleton740@yahoo.com,Female,Fitness Tracker,2024-12-17,Billing Issue,Subscription Issue,Refund of $496 not received after 23 days
+454,James Mobilia,james.mobilia950@yahoo.com,Male,Smart Thermostat,2024-08-18,Shipping Problem,Tracking Issues,Package marked as delivered but not received
+455,Crystal Mccall,crystal.mccall500@outlook.com,Female,Wireless Router,2024-07-06,Shipping Problem,Wrong Address,Order #768445 stuck in customs for 7 days
+456,Gwendolyn Tusa,gwendolyn.tusa133@hotmail.com,Female,Gaming Mouse,2024-10-13,Return Request,Size Issue,Product doesn't match description
+457,Mary Regnier,mary.regnier928@outlook.com,Female,Smart Watch,2024-01-05,Technical Support,Error Messages,Unable to connect to WiFi after recent update
+458,Debra Jimenes,debra.jimenes862@gmail.com,Female,Smart Speaker,2024-07-14,Billing Issue,Refund Status,Refund of $88 not received after 20 days
+459,Hector Doyle,hector.doyle129@outlook.com,Male,Fitness Tracker,2024-01-06,Shipping Problem,Wrong Address,Shipping label shows incorrect address
+460,Andrew Gruska,andrew.gruska385@yahoo.com,Male,Air Purifier,2024-04-27,Return Request,Change Mind,Product doesn't match description
+461,Deanna Jenkins,deanna.jenkins930@gmail.com,Female,Blender,2024-06-29,Return Request,Defective Product,Found better alternative after 4 days of use
+462,Terry Sicilian,terry.sicilian996@outlook.com,Male,Electric Kettle,2024-11-15,Billing Issue,Subscription Issue,Refund of $266 not received after 16 days
+463,Allen Kelly,allen.kelly699@yahoo.com,Male,Smartphone,2024-07-18,Product Defect,Quality Control,Switch stopped working after normal use
+464,Wilfredo Ladner,wilfredo.ladner110@yahoo.com,Male,Mechanical Keyboard,2024-04-16,Product Inquiry,Compatibility Check,Looking for weight specifications
+465,Brenda Behrens,brenda.behrens146@gmail.com,Female,Blender,2024-04-23,Feature Request,UI Enhancement,Need customizable alerts feature for better usability
+466,Anthony Chon,anthony.chon289@hotmail.com,Male,Electric Kettle,2024-02-19,Technical Support,Software Issues,Device making strange buzzing noise when starting up
+467,Jonathan Segura,jonathan.segura943@hotmail.com,Male,Smart Doorbell,2024-03-17,Technical Support,Update Failed,Experience lag when using multiple apps
+468,Jenny Brown,jenny.brown604@yahoo.com,Female,Smart Thermostat,2024-02-05,Billing Issue,Double Charge,Unauthorized charge of $143 appeared on last week
+469,Elfriede Kuebler,elfriede.kuebler877@outlook.com,Female,Air Purifier,2024-06-28,Shipping Problem,Tracking Issues,Package marked as delivered but not received
+470,Callie Hughes,callie.hughes971@hotmail.com,Female,Desktop PC,2024-04-01,Billing Issue,Double Charge,Refund of $255 not received after 12 days
+471,Terry Comer,terry.comer109@outlook.com,Female,Smart Watch,2024-01-03,Return Request,Change Mind,Received wrong model of Smart Watch
+472,Joanna Bernard,joanna.bernard527@outlook.com,Female,Smart Thermostat,2024-04-23,Billing Issue,Double Charge,Unauthorized charge of $103 appeared on last week
+473,Anne Vincent,anne.vincent577@hotmail.com,Female,Gaming Mouse,2024-12-06,Technical Support,Update Failed,Keeps disconnecting from WiFi after recent update
+474,Barbara Martin,barbara.martin413@yahoo.com,Female,Robot Vacuum,2024-07-13,Product Defect,Screen Issue,Robot Vacuum arrived with missing parts in the top
+475,Ruth Lara,ruth.lara351@hotmail.com,Female,Portable Charger,2024-05-21,Feature Request,UI Enhancement,Requesting integration with Google Home for better functionality
+476,Ruth Byrd,ruth.byrd7@outlook.com,Female,Laptop,2024-07-08,Product Inquiry,Compatibility Check,Can this Laptop work with Windows PC?
+477,Julie Russell,julie.russell609@hotmail.com,Female,Electric Kettle,2024-05-11,Account Access,Login Problems,Two-factor authentication not sending verification code
+478,Bonnie Rzeczycki,bonnie.rzeczycki151@gmail.com,Female,Air Purifier,2024-03-22,Product Defect,Manufacturing Issue,Port stopped working after first use
+479,Janet Browning,janet.browning711@outlook.com,Female,Mechanical Keyboard,2024-06-15,Product Defect,Hardware Damage,Screen showing color distortion after 6 days
+480,Jeanne Parga,jeanne.parga572@gmail.com,Female,Wireless Earbuds,2024-11-20,Billing Issue,Payment Failed,Unauthorized charge of $176 appeared on yesterday
+481,Gerald Calvert,gerald.calvert693@outlook.com,Male,Smart Thermostat,2024-09-02,Technical Support,Performance Problems,Device making strange clicking noise when in use
+482,Madie Martinez,madie.martinez960@yahoo.com,Female,Digital Camera,2024-01-26,Shipping Problem,Tracking Issues,Package marked as delivered but not received
+483,Johnny Rivas,johnny.rivas498@gmail.com,Male,Portable Charger,2024-09-16,Shipping Problem,Wrong Address,Order #816264 stuck in customs for 6 days
+484,David Johnstone,david.johnstone475@outlook.com,Male,Smart Speaker,2024-10-14,Shipping Problem,Lost Package,Tracking shows delivery to wrong address
+485,Lisa Serrell,lisa.serrell551@yahoo.com,Female,Electric Kettle,2024-10-02,Billing Issue,Refund Status,Price shown at checkout ($434) different from charged amount
+486,Lois Floyd,lois.floyd913@gmail.com,Female,Portable Charger,2024-10-20,Return Request,Defective Product,Found better alternative after 3 days of use
+487,Bernice Yahna,bernice.yahna526@yahoo.com,Female,4K TV,2024-07-02,Shipping Problem,Tracking Issues,Shipping label shows wrong zip code
+488,Pricilla Brazil,pricilla.brazil329@gmail.com,Female,Gaming Mouse,2024-08-13,Shipping Problem,Lost Package,Package marked as delivered but nowhere to be found
+489,Amber Hostetter,amber.hostetter125@yahoo.com,Female,Tablet,2024-09-19,Shipping Problem,Tracking Issues,Order #973464 stuck in processing for 5 days
+490,Nicolas Klinger,nicolas.klinger537@hotmail.com,Male,Air Purifier,2024-01-03,Shipping Problem,Lost Package,Tracking shows delivery to wrong state
+491,Bethany Kramer,bethany.kramer814@hotmail.com,Female,Air Purifier,2024-07-15,Feature Request,Additional Function,Need customizable alerts feature for better usability
+492,Rhonda Collier,rhonda.collier312@gmail.com,Female,Security Camera,2024-06-20,Billing Issue,Subscription Issue,Refund of $310 not received after 26 days
+493,Elaine Schroer,elaine.schroer703@yahoo.com,Female,Smart Thermostat,2024-09-15,Billing Issue,Refund Status,Charged twice for order #22428
+494,Mark Sorensen,mark.sorensen756@yahoo.com,Male,Monitor,2024-06-12,Account Access,Account Locked,Password reset email not received after 1 hours of request
+495,Andrew Thao,andrew.thao209@gmail.com,Male,Smart Thermostat,2024-02-22,Shipping Problem,Delivery Delay,Package marked as delivered but missing
+496,Lori Rainbolt,lori.rainbolt627@outlook.com,Female,Digital Camera,2024-09-15,Return Request,Change Mind,Received wrong model of Digital Camera
+497,Lois Oldham,lois.oldham720@outlook.com,Female,Gaming Mouse,2024-11-02,Account Access,Password Reset,Password reset email not received after 5 hours of request
+498,Brigitte Thayer,brigitte.thayer911@hotmail.com,Female,Wireless Router,2024-06-06,Billing Issue,Payment Failed,Unauthorized charge of $95 appeared on yesterday
+499,Eliseo Mcgovern,eliseo.mcgovern773@gmail.com,Male,Wireless Headphones,2024-06-17,Account Access,Login Problems,Cannot login after 5 attempts with correct credentials
+500,William Crowder,william.crowder121@outlook.com,Male,Smartphone,2024-09-25,Return Request,Change Mind,Product doesn't match description
