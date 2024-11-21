@@ -46,18 +46,6 @@ def manage_tickets():
     return render_template('tickets.html', tickets=tickets, categories=categories)
 
 
-@main.route('/api/classify', methods=['POST'])
-def classify_ticket():
-    """Classify a new ticket"""
-    data = request.json
-
-    try:
-        result = classifier.predict(data['ticket_subject'], data['ticket_description'])
-        return jsonify({'success': True, 'prediction': result})
-    except Exception as e:
-        return jsonify({'success': False, 'error': str(e)}), 400
-
-
 @main.route('/api/tickets', methods=['GET'])
 def get_tickets():
     """Get filtered tickets"""
@@ -111,7 +99,7 @@ def create_ticket():
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)}), 400
 
-
+# for updating status of ticket
 @main.route('/api/tickets/<int:ticket_id>/status', methods=['PATCH'])
 def update_ticket_status(ticket_id):
     """Update ticket status"""
@@ -163,7 +151,7 @@ def dashboard_data():
         start_date = end_date - timedelta(days=7)
 
         trends = db.session.query(
-            Ticket.created_at,  # Get the full datetime instead of func.date
+            Ticket.created_at,
             func.count(Ticket.ticket_id)
         ).filter(
             Ticket.created_at >= start_date
